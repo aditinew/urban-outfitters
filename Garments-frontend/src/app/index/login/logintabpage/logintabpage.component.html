@@ -1,0 +1,23 @@
+<div class="container-fluid backgroundColor">
+    <!-- <app-headernavlinks></app-headernavlinks> -->
+    <app-indexafterloginheader></app-indexafterloginheader>
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-5 col-11 loginboxBorder">
+            <div class="row d-flex justify-content-around">
+                <div class="col-lg-5 col-xl-5 col-6 tabText" [routerLink]="['/login', 'wholesaler']"
+                    routerLinkActive="active">Seller
+                </div>
+
+                <div class="col-lg-5 col-xl-5 col-6 tabText" [routerLink]="['/login', 'retailer']"
+                    routerLinkActive="active">Buyer
+
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-12 mt-3">
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

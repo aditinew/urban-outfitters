@@ -1,0 +1,226 @@
+<div class="container-fluid backgroundColor">
+  <!-- <app-headernavlinks></app-headernavlinks> -->
+  <!-- <app-indexafterloginheader></app-indexafterloginheader> -->
+  <div class="row mt-5 d-flex justify-content-center">
+    <div class="col-12 table-responsive">
+
+      <!-- <div class="row"> -->
+
+      <table class="table">
+        <thead class="headColor">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Product Image</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Amount</th>
+            <th scope="col">Order Status</th>
+            <th scope="col">View Details</th>
+            <th scope="col">Order Again</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tableRow" *ngFor="let obj of ordersArr; index as i">
+            <th scope="row">{{i+1}}</th>
+            <td>
+              <img class="itemcardImage" [src]="obj.productObj?.thumbnailImage" alt="">
+
+            </td>
+            <td>
+              {{obj.productObj?.name}}
+            </td>
+            <!-- <td>{{obj.currentOrderStatusObj?.name}}</td> -->
+            <td>{{obj.quantity}}</td>
+            <td>{{obj.amount}}</td>
+            <td>{{obj.currentOrderStatusObj?.name}}</td>
+            <td>
+              <div class="removvebtn cursor-pointer mr-3" data-toggle="modal" data-target="#exampleModal"
+                (click)="setModalObj(obj)">View Details</div>
+            </td>
+            <td>
+              <div class="removvebtn cursor-pointer" (click)="orderAgain(obj.productObj._id,obj.quantity)">
+                Order Again
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+      <!-- <div class="col-11 col-lg-5 itemCard py-2 mr-lg-5 mr-0 my-2 bg-primary">
+              <div class="row d-flex justify-content-around">
+                <div class="col-lg-8 col-11">
+                  <div class="row">
+                    <div class="col">
+                      <div class="itemHeading">
+                        {{obj.productObj?.name}}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <div class="itemDetails">
+                        {{obj.productObj?.subHeading}}
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <div class="itemDetails">
+                        {{obj.currentOrderStatusObj?.name}}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col d-flex justify-content-start">
+
+                      <span class="text-white itemDetails mr-3" style="position: relative;">Quantity :
+                        {{obj.quantity}}</span>
+                      <span class="text-white itemDetails" style="position: relative;">Cost : {{obj.amount}}</span>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row d-flex justify-content-end ">
+                      <div class="col-lg-3 col-5 removvebtn cursor-pointer mr-3" data-toggle="modal"
+                        data-target="#exampleModal" (click)="setModalObj(obj)">View Details</div>
+                      <div class="col-lg-3 col-5 removvebtn cursor-pointer"
+                        (click)="orderAgain(obj.productObj._id,obj.quantity)">
+                        Order Again
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+      <!-- </div> -->
+
+
+    </div>
+  </div>
+</div>
+
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content" *ngIf="modalObj">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Order GIM-{{modalObj._id}}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th colspan="2">Products Information </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Product Name</th>
+              <td>{{modalObj.productObj.name}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Seller Name</th>
+              <td>{{modalObj.sellerObj.name}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Product Code</th>
+              <td>{{modalObj.productObj.productCode}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Amount Paid</th>
+              <td>{{modalObj.amount}}</td>
+            </tr>
+            <tr *ngIf="modalObj.sampleBool">
+              <th colspan="2">
+                <u>
+                  <h5>Sample Order</h5>
+                </u>
+              </th>
+            </tr>
+            <tr *ngIf="!modalObj.sampleBool">
+              <th scope="row">Product Quantity</th>
+              <td>{{modalObj.quantity}}</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th colspan="2">Billing Information</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Name</th>
+              <td>{{modalObj.billingObj.name}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Phone</th>
+              <td>{{modalObj.billingObj.phone}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Email</th>
+              <td>{{modalObj.billingObj.email}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Payment Id</th>
+              <td>{{modalObj.paymentId}}</td>
+            </tr>
+            <tr>
+              <th scope="row" colspan="2">Address</th>
+            </tr>
+            <tr>
+              <th scope="row">Line 1</th>
+              <td>{{modalObj.billingObj.addressLine1}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Line 2</th>
+              <td>{{modalObj.billingObj.addressLine2}}</td>
+            </tr>
+            <tr>
+              <th scope="row">City</th>
+              <td>{{modalObj.billingObj.city}}</td>
+            </tr>
+            <tr>
+              <th scope="row">State</th>
+              <td>{{modalObj.billingObj.state}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Pin Code</th>
+              <td>{{modalObj.billingObj.pinCode}}</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- <div class="row mb-2" *ngIf="!modalObj.completedBool"> -->
+        <!--   <div class="col"> -->
+        <!--     <button class="btn btn-block btn-outline-danger" (click)="cancelOrder()">Cancel Order</button> -->
+        <!--   </div> -->
+        <!-- </div> -->
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+
+  </div>
+</div>

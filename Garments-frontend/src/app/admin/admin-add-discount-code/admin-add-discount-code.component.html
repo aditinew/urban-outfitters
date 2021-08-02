@@ -1,0 +1,72 @@
+<div class="row d-flex justify-content-center">
+    <div class="col-8 formContainer">
+        <div class="row">
+            <div class="col-12 heading">
+                <h2>
+                    Enter Discount Code
+                </h2>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="row">
+                <form [formGroup]="discountForm" style="width: 100%;" (ngSubmit)="addDiscount()">
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label">Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" formControlName="name" name="name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label">Code</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" formControlName="code" name="name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label">Type</label>
+                        <div class="col-md-10">
+                            <select name="type" formControlName="type" class="form-control">
+                                <option value="1">Percentage Off</option>
+                                <option value="1">Amount Off</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label">Value</label>
+                        <div class="col-md-10">
+                            <input type="number" class="form-control" formControlName="value" name="value">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label">Max Discount In INR (leave at 0 if you dont want any
+                            limit)</label>
+                        <div class="col-md-10">
+                            <input type="number" class="form-control" formControlName="maxDiscount" name="maxDiscount">
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label">Valid From</label>
+                        <div class="col-md-10">
+                            <input type="date" class="form-control" formControlName="validFrom" name="validFrom">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label">Valid Till</label>
+                        <div class="col-md-10">
+                            <input type="date" class="form-control" formControlName="validTill" name="validTill">
+                        </div>
+                    </div>
+                    <button class="btn " type="submit">Add Discount Code</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>

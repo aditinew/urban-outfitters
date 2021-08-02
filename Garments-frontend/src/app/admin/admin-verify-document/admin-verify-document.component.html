@@ -1,0 +1,197 @@
+<div class="row d-flex justify-content-center">
+  <div class="col-lg-9 formContainer">
+    <div class="row">
+      <div class="form-group col-12">
+        <h1 class="text-center heading">View Documents for verification (Sellers)</h1>
+      </div>
+    </div>
+    <div class="row">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Store Name</th>
+            <th scope="col">View Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let obj of sellerArr;index as i">
+            <th scope="row">{{i+1}}</th>
+            <td>{{obj.name}}</td>
+            <td>{{obj.businessName}}</td>
+            <td>
+              <div class="btn btn-success" data-toggle="modal" data-target="#exampleModal" (click)="setModalObj(obj)">
+                View
+                Details
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<div class="row d-flex justify-content-center mt-3">
+  <div class="col-lg-9 formContainer">
+    <div class="row">
+      <div class="form-group col-12">
+        <h1 class="text-center heading">View Documents for verification (Retailers)</h1>
+      </div>
+    </div>
+    <div class="row">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Business Name</th>
+            <th scope="col">View Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let obj of retailerArr;index as i">
+            <th scope="row">{{i+1}}</th>
+            <td>{{obj.name}}</td>
+            <td>{{obj.businessName}}</td>
+            <td>
+              <div class="btn btn-success" data-toggle="modal" data-target="#exampleModal1" (click)="setModalObj(obj)">
+                View
+                Details
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable" *ngIf="modalObj">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">{{modalObj.name}} - {{modalObj.businessName}}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <img [src]="modalObj.docs" class="img-fluid" [alt]="modalObj.docName">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <th scope="row">Name</th>
+                <td>{{modalObj.name}}</td>
+              </tr>
+              <tr>
+                <th scope="row">Email</th>
+                <td>{{modalObj.email}}</td>
+              </tr>
+              <tr>
+                <th scope="row">Phone Number</th>
+                <td>{{modalObj.phone}}</td>
+              </tr>
+              <tr>
+                <th scope="row">Business Name</th>
+                <td>{{modalObj.businessName}}</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        </div>
+
+        </div>
+      </div>
+      <div class="modal-footer flex-column">
+        <div class="row mb-2" style="width: 100%;">
+          <div class="col">
+            <input type="text" class="form-control" name="docMessage" [(ngModel)]="docMessage" placeholder="Verification or Rejection Message">
+          </div>
+        </div>
+        <div class="row flex-fill" style="width: 100%;">
+          <div class="col d-flex justify-content-end" >
+
+        <button type="button" class="btn btn-secondary mr-2" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger mr-2" (click)="verifyDocs(-1)">Reject</button>
+        <button type="button" class="btn btn-primary" (click)="verifyDocs(2)">Verify</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable" *ngIf="modalObj">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">{{modalObj.name}} - {{modalObj.businessName}}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <img [src]="modalObj.docs" class="img-fluid" [alt]="modalObj.docName">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <th scope="row">Name</th>
+                <td>{{modalObj.name}}</td>
+              </tr>
+              <tr>
+                <th scope="row">Email</th>
+                <td>{{modalObj.email}}</td>
+              </tr>
+              <tr>
+                <th scope="row">Phone Number</th>
+                <td>{{modalObj.phone}}</td>
+              </tr>
+              <tr>
+                <th scope="row">Business Name</th>
+                <td>{{modalObj.businessName}}</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        </div>
+
+        </div>
+      </div>
+      <div class="modal-footer flex-column">
+        <div class="row mb-2" style="width: 100%;">
+          <div class="col">
+            <input type="text" class="form-control" name="docMessage" [(ngModel)]="docMessage" placeholder="Verification or Rejection Message">
+          </div>
+        </div>
+        <div class="row flex-fill" style="width: 100%;">
+          <div class="col d-flex justify-content-end" >
+
+        <button type="button" class="btn btn-secondary mr-2" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger mr-2" (click)="verifyRetailerDocs(-1)">Reject</button>
+        <button type="button" class="btn btn-primary" (click)="verifyRetailerDocs(2)">Verify</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

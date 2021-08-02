@@ -1,0 +1,223 @@
+.backgroundcolorclass {
+    background: #ffffff;
+    // background: -webkit-linear-gradient(to bottom, #99f2c8, #1f4037);
+    // background: linear-gradient(to top, #99f2c8, #1f4037);
+}
+.sectionHeading {
+    color: rgb(56, 52, 52);
+    font-size: 32px;
+    // text-transform: uppercase;
+    font-weight: 500;
+}
+.headingGreenColor {
+    color: rgb(31, 29, 29);
+}
+.viewAllBtn {
+    border: solid 2px sandybrown;
+    color: rgb(48, 44, 44);
+    padding: 2px 10px;
+    font-size: 19px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.ratingscardContainer {
+    background: #FFEFBA;
+    // background: -webkit-linear-gradient(to left, #b6fbff, #83a4d4);
+    // background: linear-gradient(to left, #b6fbff, #83a4d4);
+    border-radius: 25px;
+    margin: 4vh 0px;
+}
+.CardContainerHeading {
+    text-align: center;
+    font-size: 22px;
+    margin: 5vh 0px;
+    color: rgb(31, 29, 29);
+}
+.cardslidercontainer {
+    overflow-x: scroll;
+
+    margin: 4vh 0px;
+}
+.ReviewCardsContainer {
+    display: flex;
+    flex-direction: row;
+}
+.cardslidercontainer::-webkit-scrollbar {
+    height: 0px;
+}
+/* Track */
+.cardslidercontainer::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+    height: 0px;
+}
+
+/* Handle */
+.cardslidercontainer::-webkit-scrollbar-thumb {
+    background: rgb(80, 80, 80);
+    border-radius: 10px;
+    height: 0px;
+}
+
+/* Handle on hover */
+.cardslidercontainer::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.reviewcard {
+    min-width: 32vw !important;
+    margin: 4vh 2vw;
+    background-color: #f2f2f0;
+    border-radius: 15px;
+    text-align: center;
+}
+.reviewCardImage {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.reviewcardGreenColor {
+    color: sandybrown;
+    font-weight: 600;
+    font-size: 18px;
+}
+.ReviewContent {
+    color: #314e68;
+    font-size: 20px;
+    margin: 1rem 0px;
+    text-align: center;
+}
+.reviewcardlowergreenSection {
+    background-color: sandybrown;
+    padding: 0.5rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    .reviewCardlowersectiontext {
+        color: #184f65;
+        // margin-top: 8px;
+    }
+    .whiteText {
+        color: white;
+        font-weight: 300;
+    }
+}
+.starContainerSellers {
+    margin-bottom: 2rem;
+    text-align: center;
+    .star {
+        font-size: 12px;
+        margin: 0px 3px;
+    }
+    .starActive {
+        font-size: 12px;
+        color: sandybrown;
+        margin: 0px 3px;
+    }
+}
+.sellerReviewContent {
+    color: #294862;
+    font-size: 20px;
+    margin: 1rem 0px;
+    text-align: center;
+}
+.reviewcardlowergreenSection {
+    padding: 0.5rem;
+}
+.contactBtn {
+    border: sandybrown solid 2px;
+    color: #1b3c59;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 0.2rem 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0px;
+    cursor: pointer;
+}
+.enquiryBtn {
+    background-color: sandybrown;
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    padding: 0.2rem 0px;
+    margin: 1rem 0px;
+    cursor: pointer;
+}
+.starContainer {
+    margin-bottom: 2rem;
+    text-align: center;
+    .star {
+        font-size: 18px;
+        margin: 0px 5px;
+    }
+    .starActive {
+        color: sandybrown;
+        margin: 0px 5px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .sectionHeading {
+        color: white;
+        font-size: 25px;
+        font-weight: 100;
+        text-align: center;
+        margin: 3vh 0px;
+        text-transform: capitalize;
+    }
+    .viewAllBtn {
+        margin: 2vh 0px;
+    }
+    .reviewcard {
+        min-width: 74vw !important;
+        margin: 0vh 20px;
+    }
+    .reviewcardlowergreenSection {
+        .reviewCardlowersectiontext {
+            font-size: 14px;
+        }
+        .whiteText {
+            font-size: 12px;
+        }
+    }
+    .contactBtn {
+        border: #11bfae solid 2px;
+        color: #1b3c59;
+        text-transform: uppercase;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        padding: 0.2rem 0px;
+        margin: 0.7rem 0px;
+    }
+    .enquiryBtn {
+        background-color: #11bfae;
+        text-transform: uppercase;
+        border-radius: 20px;
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.2rem 0px;
+        margin: 0.7rem 0px;
+    }
+    .sellerReviewContent {
+        color: #294862;
+        font-size: 20px;
+        margin-top: -1rem;
+        text-align: center;
+    }
+}

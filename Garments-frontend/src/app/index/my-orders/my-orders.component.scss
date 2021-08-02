@@ -1,0 +1,101 @@
+.backgroundColor {
+    background-color: #1b3c59;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.headColor {
+    background-color: #41627f;
+    border: none;
+    color: white;
+}
+.tableRow {
+    color: white;
+}
+
+.removvebtn {
+    background-color: #1b3c59;
+    color: white;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0px 0px;
+}
+.CosttextPos {
+    position: relative;
+    left: -103px;
+    top: -8px;
+}
+
+.itemcardImage{
+
+  max-height: 120px;
+  max-width: 200px ;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .BlueHueHeadings {
+        color: #69e3d7;
+        font-size: 17px;
+        text-align: center;
+        margin: 5vh 0vw;
+    }
+
+    .textBlueHueColor {
+        font-size: 18px;
+    }
+    .textBlueHueColorlarge {
+        font-size: 27px;
+    }
+    .itemcardImage {
+  max-height: 120px;
+  max-width: 200px ;
+        margin-top: 5px;
+        border-radius: 5px;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+    }
+    .itemHeading {
+        font-size: 22px;
+        color: white;
+        font-weight: 700;
+    }
+    .itemDetails {
+        font-size: 17px;
+        color: white;
+        margin: 3vh 0px;
+        font-weight: 300;
+    }
+    .selectStyle {
+        padding: 8px 15px;
+        border-radius: 25px;
+        font-size: 13px;
+        display: flex;
+        width: 80%;
+        justify-self: center;
+        align-self: center;
+        margin: 2vh 0px;
+    }
+    .removvebtn {
+        background-color: #1b3c59;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        width: 100% !important;
+        padding: 3px 0px;
+    }
+    .CosttextPos {
+        position: relative;
+        left: -73px;
+        top: -8px;
+    }
+}

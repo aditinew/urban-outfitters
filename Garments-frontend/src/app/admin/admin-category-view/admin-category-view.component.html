@@ -1,0 +1,28 @@
+<div class="container mt-3">
+    <div class="row mb-1">
+        <div class="col">
+            <h4>Category View</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <!-- <th scope="col">Delete</th> -->
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let el of categoryArr;index as i">
+                    <th scope="row">{{i+1}}</th>
+                    <td>{{el.name}}</td>
+                    <!-- <td><button type="button" class="btn btn-danger" (click)="deleteCategory(el._id)">Delete</button></td> -->
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,216 @@
+<div class="row d-flex justify-content-center">
+  <div class="col-lg-9 formContainer">
+    <div class="row">
+      <div class="form-group col-12">
+        <h1 class="text-center heading">View Orders</h1>
+      </div>
+    </div>
+    <div class="row">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Order Id</th>
+            <th scope="col">Product name</th>
+            <th scope="col">Current Order Status</th>
+            <th scope="col">Mark Order As Completed</th>
+            <th scope="col">Update Order Status</th>
+            <th scope="col">View Order Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let obj of orderArr;index as i">
+            <th scope="row">{{i+1}}</th>
+            <td>GIM-{{obj._id}}</td>
+            <td>{{obj.productObj.name}}</td>
+            <td>{{obj.currentOrderStatusObj?.name}}</td>
+            <td>
+              <div class="btn btn-success"
+                (click)="markOrderAsCompleted(obj._id)">Mark Order As Completed</div>
+            </td>
+            <td>
+              <div class="btn btn-success" data-toggle="modal" data-target="#exampleModal1" (click)="setUpdateObj(obj)">
+                Update Order Status </div>
+            </td>
+            <td>
+              <div class="btn btn-success" data-toggle="modal" data-target="#exampleModal" (click)="setUpdateObj(obj)">
+                View
+                Details</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+
+<div class="row d-flex justify-content-center">
+  <div class="col-lg-9 formContainer">
+    <div class="row">
+      <div class="form-group col-12">
+        <h1 class="text-center heading">Completed Orders</h1>
+      </div>
+    </div>
+    <div class="row">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Order Id</th>
+            <th scope="col">Product name</th>
+            <th scope="col">Current Order Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let obj of orderArr;index as i">
+            <th scope="row">{{i+1}}</th>
+            <td>GIM-{{obj._id}}</td>
+            <td>{{obj.productObj.name}}</td>
+            <td>{{obj.currentOrderStatusObj?.name}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl" *ngIf="updateObj">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Order GIM-{{updateObj._id}}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th colspan="2">Billing Information</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Name</th>
+              <td>{{updateObj.billingObj.name}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Phone</th>
+              <td>{{updateObj.billingObj.phone}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Email</th>
+              <td>{{updateObj.billingObj.email}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Payment Id</th>
+              <td>{{updateObj.paymentId}}</td>
+            </tr>
+            <tr>
+              <th scope="row" colspan="2">Address</th>
+            </tr>
+            <tr>
+              <th scope="row">Line 1</th>
+              <td>{{updateObj.billingObj.addressLine1}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Line 2</th>
+              <td>{{updateObj.billingObj.addressLine2}}</td>
+            </tr>
+            <tr>
+              <th scope="row">City</th>
+              <td>{{updateObj.billingObj.city}}</td>
+            </tr>
+            <tr>
+              <th scope="row">State</th>
+              <td>{{updateObj.billingObj.state}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Pin Code</th>
+              <td>{{updateObj.billingObj.pinCode}}</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th colspan="2">Products Information </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Product Name</th>
+              <td>{{updateObj.productObj.name}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Seller Name</th>
+              <td>{{updateObj.sellerObj.name}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Product Code</th>
+              <td>{{updateObj.productObj.productCode}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Amount Paid</th>
+              <td>{{updateObj.amount}}</td>
+            </tr>
+            <tr *ngIf="updateObj.sampleBool">
+              <th colspan="2">
+                <u>
+                  <h5>Sample Order</h5>
+                </u>
+              </th>
+            </tr>
+            <tr *ngIf="!updateObj.sampleBool">
+              <th scope="row">Product Quantity</th>
+              <td>{{updateObj.quantity}}</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- modal -->
+
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Set Order Status</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <span for="exampleFormControlSelect1">Select New Order Status</span>
+          <select class="form-control" id="exampleFormControlSelect1" name="orderStatusId" [(ngModel)]="orderStatusId">
+            <option value="" disabled>Select an option</option>
+            <option *ngFor="let el of orderStatusArr" [value]="el._id">{{el.name}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" (click)="updateOrderStatus()">Update Order Status</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,54 @@
+.loginheretext {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: solid 1px grey;
+    margin: 3vh 0px;
+    text-align: center;
+    background-color: #1a4861;
+}
+.loginbtn {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 25px;
+    margin: 3vh 0px;
+    padding: 1.5vh 10px;
+    text-align: center;
+    background-color: #40627e;
+    cursor: pointer;
+}
+.Forgotbtn {
+    color: #69e3d7;
+    font-size: 18px;
+    border: solid 1px #69e3d7;
+    font-weight: 300;
+    border-radius: 25px;
+    margin: 3vh 0px;
+    padding: 1.5vh 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.textinput {
+    border-radius: 25px;
+    outline: none;
+    padding: 10px 25px;
+    border: solid 2px #1a4861;
+}
+//#1a4861
+//#1b3c59
+//#40627e
+.hrtag {
+    border: solid 2px #bce0fd;
+    width: 20px;
+    border-radius: 10px;
+}
+.formContainer {
+    background-color: #1b3c59;
+    padding: 5vh 2vw;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(138, 138, 138, 1);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(138, 138, 138, 1);
+    box-shadow: 0px 0px 5px 0px rgba(138, 138, 138, 1);
+}

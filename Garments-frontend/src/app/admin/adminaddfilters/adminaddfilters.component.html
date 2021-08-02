@@ -1,0 +1,59 @@
+<div class="row d-flex justify-content-center">
+    <div class="col-8 formContainer">
+        <div class="row">
+            <div class="col-12 heading">
+                <h2>
+                    Enter Garment filters
+                </h2>
+            </div>
+        </div>
+        <form>
+            <!-- <div class="row">
+                <div class="col-12 heading">
+                    Select Category To which to apply filters <button class="btn btn-danger ml-4 mt-1 mb-1" type="button" (click)="resetCategories()">Reset Categories</button>
+                </div>
+            </div>
+
+                <div class="form-group">
+                    <select class="form-control" (change)="setSecondaryArr($event.target.value)">
+                        <option value="">Select a parent category</option>
+                        <option *ngFor="let el of categoryLevel1Arr" [value]="el._id">{{el.name}}</option>
+                    </select>
+                </div>
+                <div class="form-group" *ngFor="let el of categoryLevelnArr;index as i">
+                    <select class="form-control" (change)="setSecondaryArr($event.target.value,i)"
+                        [disabled]="i!=categoryLevelnArr.length-1">
+                        <option value="">Apply Filters here</option>
+                        <option *ngFor="let ele of el" [value]="ele._id">{{ele.name}}</option>
+                    </select>
+                </div> -->
+            <!-- <div class="row">
+                <div class="col-12 heading">
+                    Enter Garment filters<button class="btn btn-danger ml-4 mt-1 mb-1" type="button" (click)="resetFilters()">Reset filters</button>
+                </div>
+            </div> -->
+            <div class="form-group">
+                <select class="form-control" (change)="setSecondaryFilterArr($event.target.value)">
+                    <option value="">No parent Filter</option>
+                    <option *ngFor="let el of filterLevel1Arr" [value]="el._id">{{el.name}}</option>
+                </select>
+            </div>
+            <!-- <div class="form-group" *ngFor="let el of filterLevelnArr;index as i">
+                    <select class="form-control" (change)="setSecondaryFilterArr($event.target.value,i)"
+                        [disabled]="i!=filterLevelnArr.length-1 || i>1">
+                        <option value="">Create sub Filter here</option>
+                        <option *ngFor="let ele of el" [value]="ele._id">{{ele.name}}</option>
+                    </select>
+                </div> -->
+            <div class="form-group">
+                <label for="">Enter name</label>
+                <input type="text" class="form-control" name='name' [(ngModel)]='name'>
+            </div>
+            <div class="form-group d-flex justify-content-between">
+                <button type="submit" class="btn btn-primary col-5" (click)="addFilter()">Submit</button>
+                <button type="submit" class="btn btn-primary col-5" (click)="ngOnInit()">Reset</button>
+            </div>
+        </form>
+    </div>
+
+</div>

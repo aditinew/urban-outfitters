@@ -1,0 +1,497 @@
+Info 0    [10:32:29.639] Starting TS Server
+Info 1    [10:32:29.674] Version: 3.9.7
+Info 2    [10:32:29.674] Arguments: /usr/bin/node /home/shaw/Dev/gim/gimfrontend/node_modules/.bin/tsserver --logFile /home/shaw/Dev/gim/gimfrontend/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/d1c1548616196d18a570f8551d99f485/tscancellation*
+Info 3    [10:32:29.674] Platform: linux NodeVersion: 14 CaseSensitive: true
+Info 4    [10:32:29.708] Search path: /home/shaw/Dev/gim/gimfrontend/src/app
+Info 5    [10:32:29.710] For info: /home/shaw/Dev/gim/gimfrontend/src/app/app-routing.module.ts :: Config file name: /home/shaw/Dev/gim/gimfrontend/tsconfig.json
+Info 6    [10:32:29.710] Opened configuration file /home/shaw/Dev/gim/gimfrontend/tsconfig.json
+Info 7    [10:32:29.739] Config: /home/shaw/Dev/gim/gimfrontend/tsconfig.json : {
+ "rootNames": [],
+ "options": {
+  "configFilePath": "/home/shaw/Dev/gim/gimfrontend/tsconfig.json"
+ },
+ "projectReferences": [
+  {
+   "path": "/home/shaw/Dev/gim/gimfrontend/tsconfig.app.json",
+   "originalPath": "./tsconfig.app.json"
+  },
+  {
+   "path": "/home/shaw/Dev/gim/gimfrontend/tsconfig.spec.json",
+   "originalPath": "./tsconfig.spec.json"
+  },
+  {
+   "path": "/home/shaw/Dev/gim/gimfrontend/e2e/tsconfig.json",
+   "originalPath": "./e2e/tsconfig.json"
+  }
+ ]
+}
+Info 8    [10:32:29.783] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.json
+Info 9    [10:32:30.1] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.json Version: 1 structureChanged: true Elapsed: 218ms
+Info 10   [10:32:30.1] Project '/home/shaw/Dev/gim/gimfrontend/tsconfig.json' (Configured)
+Info 11   [10:32:30.2] 	Files (0)
+
+Info 12   [10:32:30.2] -----------------------------------------------
+Info 13   [10:32:30.5] Opened configuration file /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 14   [10:32:30.71] Config: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json : {
+ "rootNames": [
+  "/home/shaw/Dev/gim/gimfrontend/src/main.ts",
+  "/home/shaw/Dev/gim/gimfrontend/src/polyfills.ts"
+ ],
+ "options": {
+  "baseUrl": "/home/shaw/Dev/gim/gimfrontend",
+  "outDir": "/home/shaw/Dev/gim/gimfrontend/out-tsc/app",
+  "sourceMap": true,
+  "declaration": false,
+  "downlevelIteration": true,
+  "experimentalDecorators": true,
+  "moduleResolution": 2,
+  "importHelpers": true,
+  "target": 2,
+  "module": 6,
+  "lib": [
+   "lib.es2018.d.ts",
+   "lib.dom.d.ts"
+  ],
+  "types": [],
+  "configFilePath": "/home/shaw/Dev/gim/gimfrontend/tsconfig.app.json"
+ }
+}
+Info 15   [10:32:30.86] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 16   [10:32:37.879] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 1 structureChanged: true Elapsed: 7793ms
+Info 17   [10:32:37.879] Project '/home/shaw/Dev/gim/gimfrontend/tsconfig.app.json' (Configured)
+Info 18   [10:32:37.879] 	Files (312)
+
+Info 19   [10:32:37.879] -----------------------------------------------
+Info 20   [10:34:59.394] Search path: /home/shaw/Dev/gim/gimfrontend/src/app/services/url
+Info 21   [10:34:59.395] For info: /home/shaw/Dev/gim/gimfrontend/src/app/services/url/url.service.ts :: Config file name: /home/shaw/Dev/gim/gimfrontend/tsconfig.json
+Info 22   [10:35:0.399] DirectoryWatcher:: Triggered with /home/shaw/Dev/gim/gimfrontend/src :: WatchInfo: /home/shaw/Dev/gim/gimfrontend/src 1 undefined Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json WatchType: Wild card directory
+Info 23   [10:35:0.400] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/shaw/Dev/gim/gimfrontend/src :: WatchInfo: /home/shaw/Dev/gim/gimfrontend/src 1 undefined Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json WatchType: Wild card directory
+Info 24   [10:35:0.400] DirectoryWatcher:: Triggered with /home/shaw/Dev/gim/gimfrontend/src :: WatchInfo: /home/shaw/Dev/gim/gimfrontend/src 1 undefined Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 25   [10:35:0.408] Elapsed:: 7ms DirectoryWatcher:: Triggered with /home/shaw/Dev/gim/gimfrontend/src :: WatchInfo: /home/shaw/Dev/gim/gimfrontend/src 1 undefined Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 26   [10:35:0.749] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 27   [10:35:1.63] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 2 structureChanged: true Elapsed: 314ms
+Info 28   [10:35:1.63] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 29   [10:35:2.98] DirectoryWatcher:: Triggered with /home/shaw/Dev/gim/gimfrontend/src :: WatchInfo: /home/shaw/Dev/gim/gimfrontend/src 1 undefined Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json WatchType: Wild card directory
+Info 30   [10:35:2.98] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/shaw/Dev/gim/gimfrontend/src :: WatchInfo: /home/shaw/Dev/gim/gimfrontend/src 1 undefined Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json WatchType: Wild card directory
+Info 31   [10:35:2.98] DirectoryWatcher:: Triggered with /home/shaw/Dev/gim/gimfrontend/src :: WatchInfo: /home/shaw/Dev/gim/gimfrontend/src 1 undefined Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 32   [10:35:2.102] Elapsed:: 4ms DirectoryWatcher:: Triggered with /home/shaw/Dev/gim/gimfrontend/src :: WatchInfo: /home/shaw/Dev/gim/gimfrontend/src 1 undefined Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 33   [10:35:2.410] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 34   [10:35:2.664] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 3 structureChanged: true Elapsed: 254ms
+Info 35   [10:35:2.664] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 36   [10:35:4.603] Before ensureProjectForOpenFiles:
+Info 37   [10:35:4.603] After ensureProjectForOpenFiles:
+Info 38   [10:35:4.603] got projects updated in background, updating diagnostics for /home/shaw/Dev/gim/gimfrontend/src/app/app-routing.module.ts,/home/shaw/Dev/gim/gimfrontend/src/app/services/url/url.service.ts
+Info 39   [10:36:16.22] Search path: /home/shaw/Dev/gim/gimfrontend/src/app/services/product
+Info 40   [10:36:16.22] For info: /home/shaw/Dev/gim/gimfrontend/src/app/services/product/product.service.ts :: Config file name: /home/shaw/Dev/gim/gimfrontend/tsconfig.json
+Info 41   [10:36:17.703] DirectoryWatcher:: Triggered with /home/shaw/Dev/gim/gimfrontend/src :: WatchInfo: /home/shaw/Dev/gim/gimfrontend/src 1 undefined Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json WatchType: Wild card directory
+Info 42   [10:36:17.704] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/shaw/Dev/gim/gimfrontend/src :: WatchInfo: /home/shaw/Dev/gim/gimfrontend/src 1 undefined Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json WatchType: Wild card directory
+Info 43   [10:36:17.704] DirectoryWatcher:: Triggered with /home/shaw/Dev/gim/gimfrontend/src :: WatchInfo: /home/shaw/Dev/gim/gimfrontend/src 1 undefined Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 44   [10:36:17.711] Elapsed:: 7ms DirectoryWatcher:: Triggered with /home/shaw/Dev/gim/gimfrontend/src :: WatchInfo: /home/shaw/Dev/gim/gimfrontend/src 1 undefined Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 45   [10:36:18.38] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 46   [10:36:18.339] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 4 structureChanged: true Elapsed: 301ms
+Info 47   [10:36:18.339] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 48   [10:36:20.212] Before ensureProjectForOpenFiles:
+Info 49   [10:36:20.212] After ensureProjectForOpenFiles:
+Info 50   [10:36:20.212] got projects updated in background, updating diagnostics for /home/shaw/Dev/gim/gimfrontend/src/app/app-routing.module.ts,/home/shaw/Dev/gim/gimfrontend/src/app/services/url/url.service.ts,/home/shaw/Dev/gim/gimfrontend/src/app/services/product/product.service.ts
+Err 51    [10:36:20.646] Exception on executing command {"command":"getCodeFixes","seq":51,"type":"request","arguments":{"file":"/home/shaw/Dev/gim/gimfrontend/src/app/services/product/product.service.ts","startLine":26,"startOffset":16,"endLine":26,"endOffset":16,"errorCodes":[7044]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isParameter'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isParameter'.
+        at Object.cast (/home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:1387:25)
+        at doChange (/home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:132246:40)
+        at /home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:132142:109
+        at Function.ChangeTracker.with (/home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:126223:17)
+        at Object.getCodeActions (/home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:132142:64)
+        at /home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:127394:77
+        at Object.flatMap (/home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getFixes (/home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:127394:23)
+        at /home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:139206:35
+        at Object.flatMap (/home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getCodeFixesAtPosition (/home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:139204:23)
+        at IOSession.Session.getCodeFixes (/home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:149305:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:148042:61)
+        at /home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:149555:88
+        at IOSession.Session.executeWithRequestId (/home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:149546:28)
+        at IOSession.Session.executeCommand (/home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:149555:33)
+        at IOSession.Session.onMessage (/home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:149579:35)
+        at Interface.<anonymous> (/home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/tsserver.js:150895:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:337:10)
+        at Interface._normalWrite (readline.js:482:12)
+        at Socket.ondata (readline.js:194:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:307:12)
+        at readableAddChunk (_stream_readable.js:282:9)
+        at Socket.Readable.push (_stream_readable.js:221:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 52   [10:36:44.159] Search path: /home/shaw/Dev/gim/gimfrontend/src/app/wholesaler/product-manage
+Info 53   [10:36:44.160] For info: /home/shaw/Dev/gim/gimfrontend/src/app/wholesaler/product-manage/product-manage.component.ts :: Config file name: /home/shaw/Dev/gim/gimfrontend/tsconfig.json
+Info 54   [10:37:4.987] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 55   [10:37:5.18] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 5 structureChanged: false Elapsed: 31ms
+Info 56   [10:37:5.18] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 57   [10:37:5.277] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 58   [10:37:5.313] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 6 structureChanged: false Elapsed: 36ms
+Info 59   [10:37:5.314] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 60   [10:37:5.470] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 61   [10:37:5.491] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 7 structureChanged: false Elapsed: 21ms
+Info 62   [10:37:5.492] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 63   [10:37:5.626] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 64   [10:37:5.646] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 8 structureChanged: false Elapsed: 20ms
+Info 65   [10:37:5.646] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 66   [10:37:5.873] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 67   [10:37:5.892] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 9 structureChanged: false Elapsed: 19ms
+Info 68   [10:37:5.892] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 69   [10:37:5.939] getCompletionData: Get current token: 0
+Info 70   [10:37:5.939] getCompletionData: Is inside comment: 0
+Info 71   [10:37:5.939] getCompletionData: Get previous token 1: 0
+Info 72   [10:37:5.939] getCompletionData: Get previous token 2: 0
+Info 73   [10:37:5.939] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 74   [10:37:5.940] getCompletionData: Semantic work: 1
+Info 75   [10:37:5.940] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 76   [10:37:6.776] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 77   [10:37:6.803] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 10 structureChanged: false Elapsed: 27ms
+Info 78   [10:37:6.803] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 79   [10:37:7.640] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 80   [10:37:7.659] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 11 structureChanged: false Elapsed: 19ms
+Info 81   [10:37:7.660] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 82   [10:37:7.761] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 83   [10:37:7.784] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 12 structureChanged: false Elapsed: 23ms
+Info 84   [10:37:7.784] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 85   [10:37:9.280] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 86   [10:37:9.308] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 13 structureChanged: false Elapsed: 28ms
+Info 87   [10:37:9.308] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 88   [10:37:9.345] getCompletionData: Get current token: 0
+Info 89   [10:37:9.345] getCompletionData: Is inside comment: 0
+Info 90   [10:37:9.346] getCompletionData: Get previous token 1: 1
+Info 91   [10:37:9.346] getCompletionData: Get previous token 2: 0
+Info 92   [10:37:9.346] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 93   [10:37:9.346] getCompletionData: Semantic work: 0
+Info 94   [10:37:9.346] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 95   [10:37:9.630] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 96   [10:37:9.653] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 14 structureChanged: false Elapsed: 23ms
+Info 97   [10:37:9.653] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 98   [10:37:10.207] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 99   [10:37:10.226] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 15 structureChanged: false Elapsed: 19ms
+Info 100  [10:37:10.226] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 101  [10:37:11.414] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 102  [10:37:11.433] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 16 structureChanged: false Elapsed: 19ms
+Info 103  [10:37:11.433] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 104  [10:37:11.469] getCompletionData: Get current token: 0
+Info 105  [10:37:11.469] getCompletionData: Is inside comment: 0
+Info 106  [10:37:11.469] getCompletionData: Get previous token 1: 0
+Info 107  [10:37:11.469] getCompletionData: Get previous token 2: 0
+Info 108  [10:37:11.469] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 109  [10:37:11.475] getSymbolsFromOtherSourceFileExports: Recomputing list
+Info 110  [10:37:11.524] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 111  [10:37:11.524] getSymbolsFromOtherSourceFileExports: 49
+Info 112  [10:37:11.533] getCompletionData: Semantic work: 64
+Info 113  [10:37:11.553] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20
+Info 114  [10:37:11.648] getCompletionData: Get current token: 0
+Info 115  [10:37:11.648] getCompletionData: Is inside comment: 0
+Info 116  [10:37:11.648] getCompletionData: Get previous token 1: 0
+Info 117  [10:37:11.648] getCompletionData: Get previous token 2: 0
+Info 118  [10:37:11.648] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 119  [10:37:11.654] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 120  [10:37:11.659] getCompletionData: Semantic work: 11
+Info 121  [10:37:11.680] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20
+Info 122  [10:37:11.689] getCompletionData: Get current token: 0
+Info 123  [10:37:11.689] getCompletionData: Is inside comment: 0
+Info 124  [10:37:11.689] getCompletionData: Get previous token 1: 0
+Info 125  [10:37:11.689] getCompletionData: Get previous token 2: 0
+Info 126  [10:37:11.689] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 127  [10:37:11.693] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 128  [10:37:11.700] getCompletionData: Semantic work: 11
+Info 129  [10:37:11.714] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13
+Info 130  [10:37:11.722] getCompletionData: Get current token: 0
+Info 131  [10:37:11.722] getCompletionData: Is inside comment: 0
+Info 132  [10:37:11.722] getCompletionData: Get previous token 1: 0
+Info 133  [10:37:11.722] getCompletionData: Get previous token 2: 0
+Info 134  [10:37:11.722] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 135  [10:37:11.727] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 136  [10:37:11.730] getCompletionData: Semantic work: 8
+Info 137  [10:37:11.740] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8
+Info 138  [10:37:13.697] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 139  [10:37:13.726] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 17 structureChanged: false Elapsed: 28ms
+Info 140  [10:37:13.727] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 141  [10:37:14.356] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 142  [10:37:14.368] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 18 structureChanged: false Elapsed: 12ms
+Info 143  [10:37:14.369] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 144  [10:37:14.828] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 145  [10:37:14.854] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 19 structureChanged: false Elapsed: 26ms
+Info 146  [10:37:14.854] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 147  [10:37:14.926] getCompletionData: Get current token: 0
+Info 148  [10:37:14.926] getCompletionData: Is inside comment: 0
+Info 149  [10:37:14.926] getCompletionData: Get previous token 1: 0
+Info 150  [10:37:14.926] getCompletionData: Get previous token 2: 0
+Info 151  [10:37:14.927] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 152  [10:37:14.936] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 153  [10:37:14.947] getCompletionData: Semantic work: 20
+Info 154  [10:37:14.968] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 21
+Info 155  [10:37:16.557] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 156  [10:37:16.577] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 20 structureChanged: false Elapsed: 20ms
+Info 157  [10:37:16.577] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 158  [10:37:17.260] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 159  [10:37:17.279] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 21 structureChanged: false Elapsed: 19ms
+Info 160  [10:37:17.279] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 161  [10:37:17.797] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 162  [10:37:18.83] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 163  [10:37:21.883] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 164  [10:37:21.952] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 22 structureChanged: true Elapsed: 69ms
+Info 165  [10:37:21.952] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 166  [10:37:23.614] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 167  [10:37:23.643] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 23 structureChanged: false Elapsed: 29ms
+Info 168  [10:37:23.643] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 169  [10:37:27.694] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 170  [10:37:27.765] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 24 structureChanged: true Elapsed: 71ms
+Info 171  [10:37:27.766] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 172  [10:38:30.213] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 173  [10:38:30.317] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 25 structureChanged: true Elapsed: 104ms
+Info 174  [10:38:30.317] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 175  [10:38:32.727] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 176  [10:38:32.801] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 26 structureChanged: true Elapsed: 74ms
+Info 177  [10:38:32.801] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 178  [10:38:33.931] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 179  [10:38:33.991] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 27 structureChanged: true Elapsed: 60ms
+Info 180  [10:38:33.991] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 181  [10:38:36.196] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 182  [10:38:36.247] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 28 structureChanged: true Elapsed: 51ms
+Info 183  [10:38:36.248] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 184  [10:38:45.303] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 185  [10:38:45.318] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 29 structureChanged: false Elapsed: 15ms
+Info 186  [10:38:45.319] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 187  [10:38:45.481] getCompletionData: Get current token: 0
+Info 188  [10:38:45.481] getCompletionData: Is inside comment: 0
+Info 189  [10:38:45.481] getCompletionData: Get previous token 1: 0
+Info 190  [10:38:45.482] getCompletionsAtPosition: isCompletionListBlocker: 1
+Info 191  [10:38:45.484] getCompletionData: Semantic work: 2
+Info 192  [10:38:45.486] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1
+Info 193  [10:38:45.491] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 194  [10:38:45.505] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 30 structureChanged: false Elapsed: 14ms
+Info 195  [10:38:45.505] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 196  [10:38:45.505] getCompletionData: Get current token: 0
+Info 197  [10:38:45.505] getCompletionData: Is inside comment: 0
+Info 198  [10:38:45.505] getCompletionData: Get previous token 1: 0
+Info 199  [10:38:45.505] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 200  [10:38:45.505] getCompletionData: Semantic work: 0
+Info 201  [10:38:48.873] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 202  [10:38:49.320] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 203  [10:38:50.67] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 204  [10:38:50.363] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 205  [10:38:50.382] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 31 structureChanged: false Elapsed: 19ms
+Info 206  [10:38:50.382] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 207  [10:38:51.259] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 208  [10:38:51.280] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 32 structureChanged: false Elapsed: 21ms
+Info 209  [10:38:51.280] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 210  [10:38:52.372] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 211  [10:38:52.388] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 33 structureChanged: false Elapsed: 16ms
+Info 212  [10:38:52.388] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 213  [10:38:53.471] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 214  [10:38:53.495] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 34 structureChanged: false Elapsed: 24ms
+Info 215  [10:38:53.495] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 216  [10:38:53.526] getCompletionData: Get current token: 0
+Info 217  [10:38:53.526] getCompletionData: Is inside comment: 0
+Info 218  [10:38:53.526] getCompletionData: Get previous token 1: 0
+Info 219  [10:38:53.526] getCompletionData: Get previous token 2: 0
+Info 220  [10:38:53.527] getCompletionsAtPosition: isCompletionListBlocker: 1
+Info 221  [10:38:53.527] getCompletionData: Semantic work: 0
+Info 222  [10:38:53.527] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 223  [10:38:53.863] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 224  [10:38:53.876] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 35 structureChanged: false Elapsed: 13ms
+Info 225  [10:38:53.876] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 226  [10:38:54.237] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 227  [10:38:54.257] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 36 structureChanged: false Elapsed: 19ms
+Info 228  [10:38:54.257] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 229  [10:38:56.80] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 230  [10:38:56.101] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 37 structureChanged: false Elapsed: 21ms
+Info 231  [10:38:56.101] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 232  [10:38:56.159] getCompletionData: Get current token: 0
+Info 233  [10:38:56.159] getCompletionData: Is inside comment: 0
+Info 234  [10:38:56.160] getCompletionData: Get previous token 1: 1
+Info 235  [10:38:56.160] getCompletionData: Get previous token 2: 0
+Info 236  [10:38:56.160] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 237  [10:38:56.169] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 238  [10:38:56.176] getCompletionData: Semantic work: 16
+Info 239  [10:38:56.188] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 12
+Info 240  [10:38:56.198] getCompletionData: Get current token: 0
+Info 241  [10:38:56.198] getCompletionData: Is inside comment: 0
+Info 242  [10:38:56.198] getCompletionData: Get previous token 1: 0
+Info 243  [10:38:56.198] getCompletionData: Get previous token 2: 0
+Info 244  [10:38:56.198] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 245  [10:38:56.202] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 246  [10:38:56.208] getCompletionData: Semantic work: 10
+Info 247  [10:38:56.224] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16
+Info 248  [10:38:56.230] getCompletionData: Get current token: 0
+Info 249  [10:38:56.230] getCompletionData: Is inside comment: 0
+Info 250  [10:38:56.230] getCompletionData: Get previous token 1: 0
+Info 251  [10:38:56.230] getCompletionData: Get previous token 2: 0
+Info 252  [10:38:56.231] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 253  [10:38:56.234] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 254  [10:38:56.238] getCompletionData: Semantic work: 7
+Info 255  [10:38:56.245] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6
+Info 256  [10:38:56.249] getCompletionData: Get current token: 0
+Info 257  [10:38:56.249] getCompletionData: Is inside comment: 0
+Info 258  [10:38:56.249] getCompletionData: Get previous token 1: 0
+Info 259  [10:38:56.249] getCompletionData: Get previous token 2: 0
+Info 260  [10:38:56.249] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 261  [10:38:56.253] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 262  [10:38:56.255] getCompletionData: Semantic work: 6
+Info 263  [10:38:56.261] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6
+Info 264  [10:38:57.282] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 265  [10:38:57.312] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 38 structureChanged: false Elapsed: 30ms
+Info 266  [10:38:57.312] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 267  [10:38:57.313] getCompletionData: Get current token: 0
+Info 268  [10:38:57.313] getCompletionData: Is inside comment: 0
+Info 269  [10:38:57.313] getCompletionData: Get previous token 1: 0
+Info 270  [10:38:57.313] getCompletionData: Get previous token 2: 0
+Info 271  [10:38:57.313] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 272  [10:38:57.319] getSymbolsFromOtherSourceFileExports: Recomputing list for details entry
+Info 273  [10:38:57.349] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 274  [10:38:57.349] getSymbolsFromOtherSourceFileExports: 30
+Info 275  [10:38:57.355] getCompletionData: Semantic work: 42
+Info 276  [10:39:4.258] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 277  [10:39:4.272] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 39 structureChanged: false Elapsed: 14ms
+Info 278  [10:39:4.272] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 279  [10:39:5.359] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 280  [10:39:5.394] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 40 structureChanged: false Elapsed: 35ms
+Info 281  [10:39:5.394] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 282  [10:39:5.428] getCompletionData: Get current token: 0
+Info 283  [10:39:5.428] getCompletionData: Is inside comment: 0
+Info 284  [10:39:5.428] getCompletionData: Get previous token 1: 0
+Info 285  [10:39:5.428] getCompletionData: Get previous token 2: 0
+Info 286  [10:39:5.428] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 287  [10:39:5.434] getCompletionData: Semantic work: 5
+Info 288  [10:39:5.436] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 2
+Info 289  [10:39:7.419] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 290  [10:39:7.440] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 41 structureChanged: false Elapsed: 21ms
+Info 291  [10:39:7.440] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 292  [10:39:7.441] getCompletionData: Get current token: 0
+Info 293  [10:39:7.441] getCompletionData: Is inside comment: 0
+Info 294  [10:39:7.441] getCompletionData: Get previous token 1: 0
+Info 295  [10:39:7.442] getCompletionData: Get previous token 2: 1
+Info 296  [10:39:7.442] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 297  [10:39:7.444] getCompletionData: Semantic work: 2
+Info 298  [10:43:27.224] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 299  [10:43:27.253] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 42 structureChanged: false Elapsed: 29ms
+Info 300  [10:43:27.253] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 301  [10:43:27.291] getCompletionData: Get current token: 0
+Info 302  [10:43:27.291] getCompletionData: Is inside comment: 0
+Info 303  [10:43:27.291] getCompletionData: Get previous token 1: 0
+Info 304  [10:43:27.291] getCompletionData: Get previous token 2: 0
+Info 305  [10:43:27.291] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 306  [10:43:27.299] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 307  [10:43:27.308] getCompletionData: Semantic work: 17
+Info 308  [10:43:27.331] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 21
+Info 309  [10:43:27.345] getCompletionData: Get current token: 0
+Info 310  [10:43:27.345] getCompletionData: Is inside comment: 0
+Info 311  [10:43:27.345] getCompletionData: Get previous token 1: 0
+Info 312  [10:43:27.345] getCompletionData: Get previous token 2: 0
+Info 313  [10:43:27.345] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 314  [10:43:27.351] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 315  [10:43:27.355] getCompletionData: Semantic work: 10
+Info 316  [10:43:27.381] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 24
+Info 317  [10:43:27.399] getCompletionData: Get current token: 0
+Info 318  [10:43:27.399] getCompletionData: Is inside comment: 0
+Info 319  [10:43:27.399] getCompletionData: Get previous token 1: 0
+Info 320  [10:43:27.399] getCompletionData: Get previous token 2: 0
+Info 321  [10:43:27.399] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 322  [10:43:27.403] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 323  [10:43:27.408] getCompletionData: Semantic work: 9
+Info 324  [10:43:27.416] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8
+Info 325  [10:43:27.629] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 326  [10:43:27.645] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 43 structureChanged: false Elapsed: 16ms
+Info 327  [10:43:27.645] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 328  [10:43:27.683] getCompletionData: Get current token: 0
+Info 329  [10:43:27.684] getCompletionData: Is inside comment: 0
+Info 330  [10:43:27.684] getCompletionData: Get previous token 1: 0
+Info 331  [10:43:27.684] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 332  [10:43:27.685] getCompletionData: Semantic work: 1
+Info 333  [10:43:27.685] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 334  [10:43:28.180] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 335  [10:43:28.205] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 44 structureChanged: false Elapsed: 25ms
+Info 336  [10:43:28.206] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 337  [10:43:28.434] getCompletionData: Get current token: 0
+Info 338  [10:43:28.434] getCompletionData: Is inside comment: 0
+Info 339  [10:43:28.435] getCompletionData: Get previous token 1: 1
+Info 340  [10:43:28.435] getCompletionData: Get previous token 2: 0
+Info 341  [10:43:28.435] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 342  [10:43:28.436] getCompletionData: Semantic work: 1
+Info 343  [10:43:28.437] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1
+Info 344  [10:43:28.719] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 345  [10:43:28.742] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 45 structureChanged: false Elapsed: 23ms
+Info 346  [10:43:28.742] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 347  [10:43:32.311] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 348  [10:43:32.333] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 46 structureChanged: false Elapsed: 22ms
+Info 349  [10:43:32.334] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 350  [10:43:32.334] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 351  [10:43:32.361] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 47 structureChanged: false Elapsed: 27ms
+Info 352  [10:43:32.361] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 353  [10:43:32.608] getCompletionData: Get current token: 0
+Info 354  [10:43:32.608] getCompletionData: Is inside comment: 0
+Info 355  [10:43:32.608] getCompletionData: Get previous token 1: 0
+Info 356  [10:43:32.608] getCompletionData: Get previous token 2: 0
+Info 357  [10:43:32.608] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 358  [10:43:32.609] getCompletionData: Semantic work: 1
+Info 359  [10:43:32.610] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1
+Info 360  [10:43:33.468] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 361  [10:43:33.507] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 48 structureChanged: false Elapsed: 39ms
+Info 362  [10:43:33.507] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 363  [10:43:33.510] getCompletionData: Get current token: 0
+Info 364  [10:43:33.510] getCompletionData: Is inside comment: 0
+Info 365  [10:43:33.510] getCompletionData: Get previous token 1: 0
+Info 366  [10:43:33.510] getCompletionData: Get previous token 2: 0
+Info 367  [10:43:33.511] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 368  [10:43:33.513] getCompletionData: Semantic work: 2
+Info 369  [10:43:34.564] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 370  [10:43:34.585] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 49 structureChanged: false Elapsed: 21ms
+Info 371  [10:43:34.585] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 372  [10:43:34.619] getCompletionData: Get current token: 0
+Info 373  [10:43:34.619] getCompletionData: Is inside comment: 0
+Info 374  [10:43:34.619] getCompletionData: Get previous token 1: 0
+Info 375  [10:43:34.619] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 376  [10:43:34.624] getCompletionData: Semantic work: 5
+Info 377  [10:43:34.625] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1
+Info 378  [10:43:34.894] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 379  [10:43:34.913] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 50 structureChanged: false Elapsed: 19ms
+Info 380  [10:43:34.913] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 381  [10:43:37.391] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 382  [10:43:37.418] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 51 structureChanged: false Elapsed: 27ms
+Info 383  [10:43:37.418] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 384  [10:43:37.419] getCompletionData: Get current token: 0
+Info 385  [10:43:37.419] getCompletionData: Is inside comment: 0
+Info 386  [10:43:37.419] getCompletionData: Get previous token 1: 0
+Info 387  [10:43:37.419] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 388  [10:43:37.421] getCompletionData: Semantic work: 2
+Info 389  [10:43:38.523] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 390  [10:43:38.545] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 52 structureChanged: false Elapsed: 22ms
+Info 391  [10:43:38.545] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 392  [10:43:38.595] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 393  [10:43:38.620] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 53 structureChanged: false Elapsed: 25ms
+Info 394  [10:43:38.620] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 395  [10:44:15.173] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 396  [10:44:15.196] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 54 structureChanged: false Elapsed: 23ms
+Info 397  [10:44:15.196] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 398  [10:44:15.423] getCompletionData: Get current token: 0
+Info 399  [10:44:15.423] getCompletionData: Is inside comment: 0
+Info 400  [10:44:15.423] getCompletionData: Get previous token 1: 0
+Info 401  [10:44:15.423] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 402  [10:44:15.425] getCompletionData: Semantic work: 2
+Info 403  [10:44:15.756] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 404  [10:44:15.783] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 55 structureChanged: false Elapsed: 27ms
+Info 405  [10:44:15.783] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 406  [10:44:17.244] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 407  [10:44:17.265] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 56 structureChanged: false Elapsed: 21ms
+Info 408  [10:44:17.265] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 409  [10:44:17.973] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 410  [10:44:17.991] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 57 structureChanged: false Elapsed: 18ms
+Info 411  [10:44:17.991] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 412  [10:44:18.664] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 413  [10:44:18.694] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 58 structureChanged: false Elapsed: 30ms
+Info 414  [10:44:18.694] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 415  [10:44:18.713] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 416  [10:44:18.745] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 59 structureChanged: false Elapsed: 32ms
+Info 417  [10:44:18.745] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 418  [10:44:20.63] Format host information updated
+Info 419  [10:44:20.298] Starting updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json
+Info 420  [10:44:20.320] Finishing updateGraphWorker: Project: /home/shaw/Dev/gim/gimfrontend/tsconfig.app.json Version: 60 structureChanged: false Elapsed: 21ms
+Info 421  [10:44:20.320] Different program with same set of files:: oldProgram.structureIsReused:: 2

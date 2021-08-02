@@ -1,0 +1,24 @@
+<div class="container-fluid">
+    <div class="row d-flex justify-content-around">
+        <div class="col-lg-5 col-xl-5 col-12">
+            <div class="row">
+                <img src="../../../assets/GARMENTS_WHITE.png" class="col-4" routerLink="/">
+            </div>
+        </div>
+        <div class="col-lg-7 col-xl-7">
+            <div class="row d-flex justify-content-end">
+                <div class="col-lg-5"></div>
+
+                <div class="col-lg-5 col-12">
+                    <div class="row d-flex justify-content-around my-3">
+                        <div class="col-5 SignInText" routerLink="/login/retailer" *ngIf="!retialerLoginBool">Sign In
+                        </div>
+                        <div class="col-5 SignInText" (click)="logout()" *ngIf="retialerLoginBool">Logout
+                        </div>
+                        <div class="col-5 AddListingBtn" routerLink="/checkout">Cart</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

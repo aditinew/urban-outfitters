@@ -1,0 +1,35 @@
+<div class="row d-flex justify-content-center">
+    <div class="col-8 formContainer">
+        <form>
+            <div class="form-group">
+                <h2 class="text-center heading">Add Categories</h2>
+            </div>
+            <div class="form-group">
+                <select class="form-control" (change)="setSecondaryArr($event.target.value)">
+                    <option value="">No parent Category</option>
+                    <option *ngFor="let el of categoryLevel1Arr" [value]="el._id">{{el.name}}</option>
+                </select>
+            </div>
+            <div class="form-group" *ngFor="let el of categoryLevelnArr;index as i">
+                <select class="form-control" (change)="setSecondaryArr($event.target.value,i)"
+                    [disabled]="i!=categoryLevelnArr.length-1">
+                    <option value="">Create sub category here</option>
+                    <option *ngFor="let ele of el" [value]="ele._id">{{ele.name}}</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Enter name</label>
+                <input type="text" class="form-control" name='name' [(ngModel)]='name'>
+            </div>
+            <div class="form-group" *ngIf="imageBool">
+                <label for="">Upload Category Image</label>
+                <input type="file" class="form-control" (change)="setImage($event)">
+            </div>
+            <div class="form-group d-flex justify-content-around">
+                <button type="submit" class="btn btn-primary col-5" (click)="addCategory()">Submit</button>
+                <button type="submit" class="btn btn-primary col-5" (click)="ngOnInit()">Reset</button>
+            </div>
+        </form>
+    </div>
+
+</div>

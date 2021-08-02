@@ -1,0 +1,19 @@
+[17:47:42.23] Global cache location '/home/shaw/.cache/typescript/3.9', safe file path '/home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/typingSafeList.json', types map path /home/shaw/Dev/gim/gimfrontend/node_modules/typescript/lib/typesMap.json
+[17:47:42.24] Processing cache location '/home/shaw/.cache/typescript/3.9'
+[17:47:42.24] Trying to find '/home/shaw/.cache/typescript/3.9/package.json'...
+[17:47:42.25] Loaded content of '/home/shaw/.cache/typescript/3.9/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.514"}}
+[17:47:42.25] Loaded content of '/home/shaw/.cache/typescript/3.9/package-lock.json'
+[17:47:42.25] Finished processing cache location '/home/shaw/.cache/typescript/3.9'
+[17:47:42.26] Process id: 35877
+[17:47:42.26] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[17:47:42.26] validateDefaultNpmLocation: false
+[17:47:42.26] Npm config file: /home/shaw/.cache/typescript/3.9/package.json
+[17:47:42.27] Updating types-registry npm package...
+[17:47:42.27] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[17:47:44.602]     Succeeded. stdout:
+    + types-registry@0.1.514
+    updated 1 package and audited 1 package in 1.286s
+found 0 vulnerabilities
+
+
+[17:47:44.602] Updated types-registry npm package

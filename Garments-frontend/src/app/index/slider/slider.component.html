@@ -1,0 +1,20 @@
+<div class="sliderContainer">
+    <div class="sliderImageContainer" id="imagePos" (click)="slideImage()">
+        <div class="images" style="background-color:coral;">500px</div>
+        <div class="images" style="background-color:lightblue;">100px</div>
+        <div class="images" style="background-color:khaki;">20px</div>
+        <div class="images" style="background-color:pink;">10px</div>
+        <div class="images" style="background-color:lightgrey;">80px</div>
+    </div>
+</div>
+<div class="row d-flex justify-content-center" style="margin: 0px; padding: 0px;">
+    <div class="col-6">
+        <div class="dotcontainer">
+            <div class="dots active" [class.active]="i==0" (click)="slideToPos(0)"></div>
+            <div class="dots" [class.active]="i==1" (click)="slideToPos(1)"></div>
+            <div class="dots" [class.active]="i==2" (click)="slideToPos(2)"></div>
+            <div class="dots" [class.active]="i==3" (click)="slideToPos(3)"></div>
+            <div class="dots" [class.active]="i==4" (click)="slideToPos(4)"></div>
+        </div>
+    </div>
+</div>

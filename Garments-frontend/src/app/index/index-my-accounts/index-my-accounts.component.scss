@@ -1,0 +1,26 @@
+.backgroundColor {
+    background-color: #1b3c59;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.PageHeading {
+    font-size: 32px;
+    color: white;
+    font-weight: 500;
+}
+.PillsItem {
+    background-color: #40627e;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin: 5px 0px;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+}

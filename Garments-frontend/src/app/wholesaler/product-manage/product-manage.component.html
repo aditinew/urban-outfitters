@@ -1,0 +1,135 @@
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-9 formContainer">
+            <div class="row head-name">
+                <div class="form-group col-12">
+                    <h1 class="text-center heading">Manage Products</h1>
+                </div>
+            </div>
+            
+            <div style="overflow-x: auto;">
+                <table class="table table-hover table-main">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Product Name</th>
+                            <th scope="col">Product Code</th>
+                            <th scope="col">View Product</th>
+                            <th scope="col">Add Image</th>
+                            <th scope="col">Delete Product</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let obj of productArr;index as i">
+                            <th scope="row">{{i+1}}</th>
+                            <td>{{obj.name}}</td>
+                            <td>{{obj.productCode}}</td>
+                            <td> <button type="button" data-toggle="modal" data-target="#exampleModal2" class="btn btn-success" (click)="setModalId(obj._id)"> Add Image </button></td>
+                            <td>
+                                <div class="btn btn-success" data-toggle="modal" data-target="#exampleModal" (click)="getProductByIdForModal(obj._id)">View
+                                </div>
+                            </td>
+                            <td>
+                                <div class="btn btn-danger" (click)="deleteProduct(obj._id)">Delete</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table> 
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true" >
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content" style="background-color: #1b3c59;">
+            <div class="modal-header">
+                <h5 class="modal-title text-white" id="exampleModalLabel">View Product </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="">Select image</label>
+                        <input type="file" (change)="setImage($event)">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" (click)="addImage()">Add Image</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="overflow-x: scroll;" aria-hidden="true" >
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content" *ngIf="modalProductObj" style="background-color: #1b3c59;">
+            <div class="modal-header">
+                <h5 class="modal-title text-white" id="exampleModalLabel">View Product {{modalProductObj.name}}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="overflow-x: scroll;">
+                <table class="table table-hover">
+  <tbody >
+    <tr>
+      <td>name</td>
+      <td>{{modalProductObj.name}}</td>
+    </tr>
+    <tr>
+      <td>Subheading</td>
+      <td>{{modalProductObj.subHeading}}</td>
+    </tr>
+    <tr>
+      <td>Category</td>
+      <td>{{modalProductObj.categoryName}}</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td [innerHTML]="modalProductObj.description"></td>
+    </tr>
+    <tr>
+      <td>Product Code</td>
+      <td>{{modalProductObj.productCode}}</td>
+    </tr>
+    <tr>
+      <td>MRP</td>
+      <td>{{modalProductObj.mrp}}</td>
+    </tr>
+    <tr>
+      <td>Minimum quantity</td>
+      <td>{{modalProductObj.minQuantity}}</td>
+    </tr>
+    <tr *ngFor="let obj of modalProductObj.productSpecificationArr">
+        <td>{{obj.name}}</td>
+        <td><span *ngFor="let el of obj.contentArr">{{el.name}},</span></td>
+    </tr>
+    <tr>
+        <td>Thumbnail Image </td>
+        <td><img [src]="modalProductObj.thumbnailImage" height="40px" width="40px"  ></td>
+    </tr>
+    <tr>
+        <td>Image Array</td>
+        <td> <img [src]="el" height="40px" width="40px" style="margin-right: 10px;" *ngFor="let el of modalProductObj.imageArray"> </td>
+    </tr>
+  </tbody>
+</table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

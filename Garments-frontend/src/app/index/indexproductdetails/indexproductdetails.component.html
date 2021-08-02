@@ -1,0 +1,347 @@
+<div class="container-fluid backgroundColor" *ngIf="productObj">
+    <app-indexafterloginheader></app-indexafterloginheader>
+    <!-- <app-headernavlinks></app-headernavlinks> -->
+    <div class="row">
+        <div class="col-lg-7 col-12">
+            <div class="row d-flex justify-content-around">
+                <div class="col-3">
+                    <div class="row">
+
+                        <img [src]="el" alt="" class="col-12 my-2 sliderPreviewBoxImage" *ngFor="let el of imgArr"
+                            (click)="setImgSrc(el)">
+                    </div>
+                </div>
+                <div class="col-8 d-flex align-item-center justify-content-center mainSlideImageContainer">
+                    <lib-ngx-image-zoom [lensWidth]=250 [lensHeight]=250 [magnification]=3 [enableScrollZoom]=true
+                        [thumbImage]=imgSrc [fullImage]=imgSrc>
+                    </lib-ngx-image-zoom>
+
+
+
+
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-11 my-3">
+                    <div class="row d-flex justify-content-around" style="padding: 0px;margin: 0px;">
+                        <div class="col-lg-8 col-7 SimilarProducts" style="padding: 0px;">Similar products</div>
+                        <div class="col-lg-2 col-3 ViewAllBtn"
+                            routerLink="/productvarietydetails/{{productObj.categoryId}}">
+                            View All
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cardContainer mb-5">
+
+                            <div class="card" routerLink="/productdetails/{{obj._id}}" *ngFor="let obj of productArr">
+                                <img [src]="obj.thumbnailImage" class="cardImage" alt=""
+                                    routerLink="/productdetails/{{obj._id}}">
+                                <div class="cardProductName" routerLink="/productdetails/{{obj._id}}">
+                                    {{obj.name}}
+                                </div>
+                                <div class="cardproduct" routerLink="/productdetails/{{obj._id}}">
+                                    {{obj.mrp}}
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ////////////////////////////////////////right side product details -->
+        <div class="col-lg-5 col-12">
+            <div class="row">
+                <div class="col-12">
+                    <div class="productName">
+                        {{productObj.name}}
+                    </div>
+                </div>
+
+
+                <!-- /////////////////////////////////// -->
+
+                <div class="col-11 productBrief">
+                    {{productObj.subHeading}}
+                </div>
+
+
+                <!-- /////////////////////////////////// -->
+
+                <div class="col-11">
+                    <span class="priceDiscounted"><s *ngIf="productObj.cutMrp">{{productObj.cutMrp | currency :'INR'}}</s>&nbsp;&nbsp;{{productObj.mrp | currency :'INR'}} (Exclusive of taxes)</span>
+                    <!-- <span class="priceNotDiscounted"> INR 1398</span><span
+                        class="PercentageOff"> (50% Off)</span> -->
+                </div>
+
+                <!-- /////////////////////////////////// -->
+
+                <div class="col-11 my-3">
+                    <div class="row d-flex justify-content-between" style="padding: 0px;margin: 0px;">
+                        <div class="col-5 SelectSizeText" style="padding: 0px;">Specifications</div>
+                        <!-- <div class="col-5 SelectSizeText" style="padding: 0px;">Select Size</div>
+                        <div class="col-5 DetailsText ">
+                            Details
+                            <i class="fas fa-arrow-circle-right"></i>
+                        </div> -->
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!-- /////////////////////////////////// -->
+
+            <div class="row">
+                <div class="col-11">
+                    <div class="row d-flex justify-content-center tableBackground" style="padding: 0px;margin: 0px;">
+
+
+                        <div class="col-11">
+                            <div class="row borderBottom"
+                                *ngFor="let el of productObj.productSpecificationArr;index as i">
+                                <div class="col-6 tableLeft marginpaddingnone" style=" font-weight: 600;">{{el.name}}
+                                </div>
+                                <div class="col-6 tableRight marginpaddingnone" style=" font-weight: 300;">
+                                    <span *ngFor="let ele of el.contentArr;index as j">{{ele.name}}<span
+                                            *ngIf="!(j==el.contentArr.length-1)">, </span></span>
+                                </div>
+
+                            </div>
+                            <div class="row borderBottom">
+                                <div class="col-6 tableLeft marginpaddingnone" style=" font-weight: 600;">
+                                    Number Of Items in 1 Set
+                                </div>
+                                <div class="col-6 tableRight marginpaddingnone" style=" font-weight: 300;">
+                                    {{productObj.setItemQuantity}}
+                                </div>
+
+                            </div>
+                            <div class="row borderBottom" *ngIf="productObj.brandObj">
+                                <div class="col-6 tableLeft marginpaddingnone" style=" font-weight: 600;">
+                                    Brand
+                                </div>
+                                <div class="col-6 tableRight marginpaddingnone" style=" font-weight: 300;">
+                                    {{productObj.brandObj.name}}
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <!-- <div class="row d-flex justify-content-center">
+                <div class="col-11">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-2 mx-1 Sizecircle">
+                            32
+                        </div>
+                        <div class="col-2 mx-1 Sizecircle">
+                            34
+                        </div>
+                        <div class="col-2 mx-1 Sizecircle">
+                            36
+                        </div>
+                        <div class="col-2 mx-1 Sizecircle">
+                            38
+                        </div>
+                        <div class="col-2 mx-1 Sizecircle">
+                            40
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+
+
+            <!-- /////////////////////////////////// -->
+
+            <div class="row marginpaddingnone">
+                <div class="col-11">
+                    <div class="row d-flex justify-content-between mt-5">
+
+                        <button class=" col-lg-5 col-5 addtocartBtn " (click)="addToCart()">
+                            add to cart
+                        </button>
+                        <button class="col-lg-5 col-5 buysampleBtn" data-toggle="modal" data-target="#exampleModal">
+                            Buy sample
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- /////////////////////////////////// -->
+
+
+            <!-- <div class="row d-flex justify-content-around my-4"> -->
+            <!--     <div class="col-12 sectionHeading"> -->
+            <!--         Delivery Options -->
+            <!--     </div> -->
+            <!--     <div class="col-11"> -->
+            <!--         <div class="row d-flex"> -->
+            <!--             <input type="text" placeholder="Enter Pincode" class="col-8 pininputTag"> -->
+            <!--             <div class="col-2 ButtonTitle">Check</div> -->
+            <!--         </div> -->
+            <!--     </div> -->
+            <!-- </div> -->
+            <!-- <div class="row d-flex justify-content-around"> -->
+
+            <!--     <div class="col-12 noteText"> -->
+            <!--         Please enter PIN code to check delivery time & Pay on Delivery Availability -->
+            <!--     </div> -->
+            <!-- </div> -->
+
+            <!-- ///////////////////////////////////////// -->
+            <!-- <div class="row my-1 "> -->
+            <!--     <div class="col-1"> -->
+            <!--         <i class="fas fa-arrow-circle-right LeftSideNoteArrow cursor-pointer"></i> -->
+            <!--     </div> -->
+            <!--     <div class="col-10 NotetextblueTint cursor-pointer">Buy sample to test the clothes quality</div> -->
+            <!-- </div> -->
+
+
+            <!-- ///////////////////////////////////////// -->
+
+            <!-- <div class="row d-flex justify-content-around my-4"> -->
+            <!--     <div class="col-12 sectionHeading"> -->
+            <!--         Best Offers -->
+            <!--     </div> -->
+            <!-- </div> -->
+
+
+            <!-- <div class="row"> -->
+            <!--     <div class="col-12 BestPriceText"> -->
+            <!--         Best Price : <span style="color:#67ded3">INR 649</span> -->
+            <!--     </div> -->
+            <!-- </div> -->
+
+            <!-- /////////////////////////////////// -->
+            <div class="row d-flex justify-content-around my-4">
+                <div class="col-12 sectionHeading">
+                    Product details
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 BestPriceText">
+                    <div style="color:#67ded3" [innerHTML]="productObj.description">
+                        <!-- {{productObj.description}} -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- /////////////////////////////////// -->
+
+            <div class="row">
+
+                <div class="col-12">
+                    <div class="productSpecHeading">
+                        Product Code :<span style="color:#67ded3">{{productObj.productCode}}</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- /////////////////////////////////// -->
+
+            <div class="row">
+
+                <div class="col-12">
+                    <div class="productSpecHeading">
+                        Sold By :<span style="color:#67ded3">{{productObj.businessName}}</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Buy Sample</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col">
+
+
+                        <h5><u>Contact Details:</u></h5>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                name="name" [(ngModel)]="billingObj.name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                [(ngModel)]="billingObj.email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Phone</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                [(ngModel)]="billingObj.phone">
+                        </div>
+
+                        <h5><u>Address:</u></h5>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Address Line 1</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                [(ngModel)]="billingObj.addressLine1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Address Line 2</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                [(ngModel)]="billingObj.addressLine2">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">City</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                [(ngModel)]="billingObj.city">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">State</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                [(ngModel)]="billingObj.state">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Pincode</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                [(ngModel)]="billingObj.pinCode">
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" (click)="buySample()">Buy Now</button>
+            </div>
+        </div>
+    </div>
+</div>

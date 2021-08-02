@@ -1,0 +1,146 @@
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-9 formContainer">
+            <form>
+                <div class="row">
+                    <div class="form-group col-12">
+                        <h1 class="text-center heading">Add Products</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-lg-6 col-12">
+                        <label for="">Product Name</label>
+                        <input class="form-control" type="text" name="name" [(ngModel)]="name">
+                    </div>
+                    <div class="form-group col-lg-6 col-12">
+                        <label for="">Sub Heading In Breif </label>
+                        <input class="form-control" type="text" name='subHeading' [(ngModel)]='subHeading'>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-lg-4 col-12">
+                        <label for="">Sample Cost(Include 1 Piece Only)</label>
+                        <input class="form-control" type="number" name='sampleCost' [(ngModel)]='sampleCost'>
+                    </div>
+
+                    <div class="form-group col-lg-4 col-6">
+                        <label for="">MRP per item</label>
+                        <input class="form-control" type="number" name='mrp' [(ngModel)]='cutMrp'>
+                    </div>
+                    <div class="form-group col-lg-4 col-6">
+                        <label for="">Selling Price</label>
+                        <input class="form-control" type="number" name='setItemQuantity' [(ngModel)]='mrp'>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-6">
+                        <label for="">Stock (in sets)</label>
+                        <input class="form-control" type="number" name='stock' [(ngModel)]='stock'>
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="">Minimum Quantity (Number Of Sets)</label>
+                        <input class="form-control" type="number" name='minQuantity' [(ngModel)]='minQuantity'>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="form-group col-6">
+                        <label for="">Total number of items in one set</label>
+                        <input class="form-control" type="number" name='setItemQuantity' [(ngModel)]='setItemQuantity'>
+                    </div>
+                    <div class="form-group col-6">
+                        <input type="checkbox" (click)="setCod()" [checked]="codChk" style="margin-left: 30%;">
+                        <label for="">Cash On Delivery</label>
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="form-group col-12">
+                        <label for="">Select Image <span style="font-weight: bold; font-size:22px">PLEASE MAKE SURE THAT
+                                THE IMAGE DIMENSIONS IS LESS THAN 400x600
+                            </span> </label>
+                        <input class="form-control" type="file" style="height:6vh" (change)="setImage($event)">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="">Select Category</label>
+                    </div>
+                    <div class="form-group col-12">
+                        <select class="form-control" (change)="setSecondaryArr($event.target.value)">
+                            <option value="">Select a parent category</option>
+                            <option *ngFor="let el of categoryLevel1Arr" [value]="el._id">{{el.name}}</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-12" *ngFor="let el of categoryLevelnArr;index as i">
+                        <select class="form-control" (change)="setSecondaryArr($event.target.value,i)"
+                            [disabled]="i!=categoryLevelnArr.length-1">
+                            <option value="">Select Sub Category</option>
+                            <option *ngFor="let ele of el" [value]="ele._id">{{ele.name}}</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col">
+                        <label for="">Filters:</label>
+                    </div>
+                </div>
+                <div class="form-row" *ngFor="let el of filterDisplayArr;index as i">
+                    <div class="form-group" [style]="'margin-left:'+(el.level*20)+'px'">
+                        <input type="checkbox" [value]="el._id" (click)="addFilter($event.target.value,el.level,i)"
+                            [checked]="el.checked">
+                        <label for="">&nbsp;&nbsp; {{el.name}}</label>
+                    </div>
+                </div>
+
+
+                <div class="row mt-3">
+                    <div class="col"><label for="">Product Specifications:</label></div>
+                </div>
+                <div *ngIf="productSpecObj">
+                    <div class="form-row" *ngFor="let el of productSpecObj.specifications;index as i">
+                        <div class="form-group" [style]="'margin-left:'+(el.level*30)+'px'">
+                            <input type="checkbox" [value]="el.id" (click)="addProductSpec(el,i)"
+                                [checked]="el.checked">
+                            <label for="">{{el.name}}</label>
+                        </div>
+                        <div class="form-group" *ngIf="el.checked">
+                            <div class="form-row" *ngFor="let ele of el.contentArr;index as j">
+                                <div class="form-group">
+                                    <input type="checkbox" [value]="ele.name" (click)="addPro(ele.id,el.id,j)">
+                                    <label for="">{{ele.name}}</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="">Product Description</label>
+                        <div style="background-color: white;">
+                            <angular-editor [placeholder]="'Enter text here...'" name="htmlContent"
+                                [(ngModel)]="htmlContent"></angular-editor>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group" style="margin-left: 3%;">
+                        <label for="">Select Brand</label>
+                    </div>
+                    <div class="form-group col-12" style="text-align: center;">
+                        <select class="form-control" [(ngModel)]="brandId" name="brandId">
+                            <option value="">Select a parent category</option>
+                            <option *ngFor="let el of brandsArr" [value]="el._id">{{el.name}}</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="row buttt">
+                    <button class="col-lg-12 col-11 btn btn-block" (click)="handleSubmit()">Add Product</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

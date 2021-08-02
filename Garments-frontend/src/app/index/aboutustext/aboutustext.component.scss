@@ -1,0 +1,34 @@
+//
+.aboutbackground {
+    background: #ffffff;
+    // background: -webkit-linear-gradient(to bottom, #99f2c8, #1f4037);
+    // background: linear-gradient(to bottom, #99f2c8, #1f4037);
+    position: relative;
+    padding-top: 5vh;
+    #svgBanner {
+        opacity: 0.4;
+        fill: sandybrown;
+        width: 99vw;
+    }
+
+    .svgBanner {
+        overflow: hidden !important;
+        position: absolute;
+        width: 100%;
+        top: 50vh;
+        left: 0px;
+    }
+    .sectionHeading {
+        color: #1a1b1b;
+        font-size: 38px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .aboutSection {
+        color: rgb(58, 56, 56);
+        font-weight: 300;
+        font-size: 20px;
+        text-align: center;
+        margin: 3vh 0px;
+    }
+}

@@ -1,0 +1,142 @@
+<div class="container-fluid backgroundColor">
+    <!-- <app-headernavlinks></app-headernavlinks> -->
+    <app-indexafterloginheader></app-indexafterloginheader>
+    <div class="row min-height-100">
+        <div class="col-lg-3 col-12 leftSectionSide">
+            <!-- ////////////////////Heading section -->
+
+            <div class="row d-flex justify-content-center" *ngFor="let el of filterArr;index as i">
+                <div class="col-10 my-4 filterHeading">
+                    {{el.name}}
+                    <span class="filterClear" *ngIf="el.childSelected" (click)="clearFilter(el._id)">Clear</span>
+                </div>
+                <!-- ////////////////////Heading section -->
+
+
+
+                <!-- ////////////////////radiobtn section -->
+                <div class="col-10">
+                    <div class="row my-2 d-flex justify-content-around" *ngFor="let ele of el.subFilters">
+                        <input type="radio" style="position: relative;top: 8px;" [name]="el._id"
+                            (click)="filterProducts(el,ele)" [checked]="ele.selected">
+                        <span class="col-10 text-left filterName" style="padding: 0px;">{{ele.name}} </span>
+                    </div>
+
+                </div>
+            </div>
+            <!-- ////////////////////radiobtn section -->
+
+
+
+            <!-- ////////////////////Heading section -->
+            <div class="row d-flex justify-content-center">
+                <div class="col-10 my-4 filterHeading">
+                    Price
+
+                    <span class="filterClear" *ngIf="priceFilterVal!=0" (click)="clearFilterByPrice()">Clear</span>
+                </div>
+            </div>
+            <!-- ////////////////////Heading section -->
+
+
+            <!-- ////////////////////radiobtn section -->
+            <div class="row d-flex justify-content-around">
+                <div class="col-10">
+                    <div class="row my-2 d-flex justify-content-around align-items-center">
+                        <input type="radio" style="position: relative;top: 0px;" name="price"
+                            [checked]="priceFilterVal==1" (click)="filterByPrice(1)">
+                        <span class="col-10 text-left filterName" style="padding: 0px;"> Below
+                            {{'500'| currency:'INR'}}</span>
+                    </div>
+                    <div class="row my-2 d-flex justify-content-around">
+                        <input type="radio" style="position: relative;top: 0px;" name="price"
+                            [checked]="priceFilterVal==2" (click)="filterByPrice(2)">
+                        <span class="col-10 text-left filterName" style="padding: 0px;">{{'500'| currency:'INR'}} to
+                            {{'1000'| currency:'INR'}}</span>
+                    </div>
+                    <div class="row my-2 d-flex justify-content-around">
+                        <input type="radio" style="position: relative;top: 0px;" name="price"
+                            [checked]="priceFilterVal==3" (click)="filterByPrice(3)">
+                        <span class="col-10 text-left filterName" style="padding: 0px;">{{'100'| currency:'INR'}} to
+                            {{'1500'| currency:'INR'}}</span>
+                    </div>
+                    <div class="row my-2 d-flex justify-content-around">
+                        <input type="radio" style="position: relative;top: 0px;" name="price"
+                            [checked]="priceFilterVal==4" (click)="filterByPrice(4)">
+                        <span class="col-10 text-left filterName" style="padding: 0px;">{{'1500'| currency:'INR'}} to
+                            {{'2000'| currency:'INR'}}</span>
+                    </div>
+                    <div class="row my-2 d-flex justify-content-around">
+                        <input type="radio" style="position: relative;top: 8px;" name="price"
+                            [checked]="priceFilterVal==5" (click)="filterByPrice(5)">
+                        <span class="col-10 text-left filterName" style="padding: 0px;">Above
+                            {{ 2000 | currency:'INR' }}</span>
+                    </div>
+                </div>
+            </div>
+            <!-- <!-1- ////////////////////radiobtn section -1-> -->
+
+            <!-- ////////////////////Heading section -->
+            <div class="row d-flex justify-content-center">
+                <div class="col-10 my-4 filterHeading">
+                    popular brands
+
+                    <span class="filterClear" *ngIf="brandFilterArray.length!=0"
+                        (click)="clearBrandFilterArr()">Clear</span>
+
+                </div>
+            </div>
+            <!-- ////////////////////Heading section -->
+
+
+
+            <!-- ////////////////////radiobtn section -->
+            <div class="row d-flex justify-content-around">
+                <div class="col-10 mb-5">
+                    <div class="row my-2 d-flex justify-content-around align-items-center"
+                        *ngFor="let obj of brandArr;index as i">
+                        <input type="checkbox" style="position: relative;top: 0px;" [checked]="obj.selected"
+                            (click)="addToBrandFilterArray(obj._id,i)">
+                        <span class="col-10 text-left filterName" style="padding: 0px;">{{obj.name}}</span>
+                    </div>
+                </div>
+            </div>
+            <!-- ////////////////////radiobtn section -->
+        </div>
+        <div class="col-lg-9 col-12">
+            <div class="row d-flex justify-content-center">
+                <div class="col-9 pageHeading">
+                    {{categoryObj?.name | titlecase}}
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+
+                <div class="cardContainer mb-5">
+                    <div class="card" *ngFor="let el of productArr;index as i" routerLink="/productdetails/{{el._id}}">
+                        <img src={{el.thumbnailImage}} class="cardImage" alt="">
+                        <div class="cardProductName">
+                            {{el.name}}
+                        </div>
+                        <div class="cardproduct1" *ngIf="el.cutMrp"> MRP :
+                            <s>{{el.cutMrp | currency:'INR'}}</s>
+                        </div>
+                        <div class="cardproduct">
+                            {{el.mrp | currency:'INR'}}
+                        </div>
+                        <!-- <div class="cardproductcategory">
+                            Sold/Popularity
+                        </div> -->
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

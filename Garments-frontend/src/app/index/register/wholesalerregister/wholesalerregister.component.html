@@ -1,0 +1,79 @@
+<div class="container-fluid mb-5">
+    <form *ngIf="dataInputToggle==0" [formGroup]="registerForm" (ngSubmit)="handleSubmit()">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-lg-8">
+                <div class="loginheretext">
+                    Register as Seller
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center my-2">
+
+            <input type="text" placeholder="Enter Your Full Name" formControlName="name"
+                class="textinput col-lg-12 col-12 my-2" name="name">
+            <input type="text" placeholder="Business Name" formControlName="businessName"
+                class="textinput col-lg-12 col-12 my-2" name="businessName">
+            <input type="text" placeholder="Email" formControlName="email" class="textinput col-lg-12 col-12 my-2"
+                name="email">
+
+            <input type="number" ng-maxlength="5" placeholder="Phone Number" formControlName="phone"
+                class="textinput col-lg-12 col-12 my-2" name="phone">
+            <input type="password" placeholder="Password" formControlName="password"
+                class="textinput col-lg-12 col-12 my-2" name="password">
+            <input type="password" placeholder="Confirm Password" formControlName="confirmPassword"
+                class="textinput col-lg-12 col-12 my-2" name="confirmPassword">
+        </div>
+        <div class="row d-flex justify-content-center">
+            <hr class="hrtag">
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-12 col-12">
+                <!-- <div class="loginbtn">
+                    Register
+                </div> -->
+                <button class="loginbtn btn btn-block">Register</button>
+            </div>
+            <!-- <div class="col-lg-8 col-12"> -->
+            <!-- <div class="Forgotbtn">
+                    Forgot your password ? <span style="font-weight: 700;">Click Here</span>
+                </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-lg-8 col-12" routerLink="/register/retailer">
+                <div class="Forgotbtn">
+                    Already registered ?<span style="font-weight: 700;"> login now</span>
+                </div>
+            </div> -->
+        </div>
+    </form>
+    <form *ngIf="dataInputToggle==1">
+      <div class="row">
+        <div class="col">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <select name="docName" [(ngModel)]="docName"  class="form-control">
+            <option value="" disabled>Please select an option</option>
+            <option>Adhaar Card</option>
+            <option>Driving License</option>
+          </select>
+        </div>
+      </div>
+        <div class="row d-flex justify-content-center my-2">
+          <div class="col">
+            <input type="file" class="form-control textinput col-lg-12 col-12 my-2" (change)="setFile($event)"
+                name="file">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <button class="btn btn-block Forgotbtn" routerLink="/wholesaler">Skip</button>
+          </div>
+          <div class="col-lg-6 col-12">
+            <button class="btn btn-block loginbtn" (click)="uploadFile()">Upload File</button>
+          </div>
+        </div>
+    </form>
+
+</div>

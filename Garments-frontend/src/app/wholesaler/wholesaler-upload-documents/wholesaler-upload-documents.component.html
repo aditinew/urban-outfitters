@@ -1,0 +1,61 @@
+<div class="container">
+
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-lg-9 formContainer">
+
+      <div class="row">
+        <div class="col mt-5">
+          <h3 class="text-white">Verify Documents </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h5 class="text-white" [ngSwitch]="sellerObj.docVerificationFlag">
+            Current Status Of Document:
+            <span *ngSwitchCase="-1" class="text-danger">Rejected</span>
+            <span *ngSwitchCase="1" class="text-warning">Waiting Verification</span>
+            <span *ngSwitchCase="2" class="text-success">Verified</span>
+            <span *ngSwitchDefault class="text-info"> Not Uploaded Any Document </span>
+          </h5>
+        </div>
+      </div>
+
+      <div class="row" *ngIf="sellerObj.docVerificationFlag==-1||sellerObj.docVerificationFlag==2">
+        <div class="col">
+          <h6 class="text-white">Admin Message:</h6>
+          <span [class.text-danger]="sellerObj.docVerificationFlag==-1" class="text-white"  >{{sellerObj.docMessage}}</span>
+        </div>
+      </div>
+
+
+
+      <div class="row" *ngIf="sellerObj.docVerificationFlag!=2">
+        <div class="col">
+
+          <div class="row">
+            <div class="col">
+              <select name="docName" [(ngModel)]="docName" class="form-control">
+                <option value="" disabled>Please select an option</option>
+                <option>Adhaar Card</option>
+                <option>Driving License</option>
+              </select>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center my-2">
+            <div class="col">
+              <input type="file" class="form-control textinput col-lg-12 col-12 my-2 p-1 pl-3" style="height: 7.5vh;" (change)="setFile($event)"
+                name="file">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button class="btn btn-block loginbtn" (click)="uploadFile()">Upload File</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

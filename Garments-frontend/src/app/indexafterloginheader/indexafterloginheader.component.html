@@ -1,0 +1,59 @@
+<div class="container-fluid">
+    <div class="row d-flex justify-content-between" style="position:relative !important;">
+        <div class="col-lg-2 col-3">
+            <div class="row">
+                <img src="../../assets/new4.png"  class="col-10 logoImage" routerLink="/">
+            </div>
+        </div>
+        <div style="display: grid;" *ngIf="!(screenWidth>=600) || screenWidth>=600" class="col-lg-10 col-7">
+
+            <div class="row d-flex align-item-center justify-content-end justify-content-lg-end">
+                <div class="col-lg-1 col-4  d-flex justify-content-center align-item-center HeaderItems " style="font-size: 18px;" 
+                    routerLink="/productvarietydetails"><i class="fas fa-shopping-bag"></i>&nbsp;Products
+                </div>
+                <div class="col-lg-1 col-4 d-flex justify-content-center align-item-center HeaderItems" style="font-size: 18px;"
+                    routerLink="/login/retailer" *ngIf="!retialerLoginBool"><i class="fas fa-sign-in-alt"></i>&nbsp;Login
+                </div>
+                <!-- <div class="col-lg-1 col-4 d-flex justify-content-center align-item-center HeaderItems"> -->
+                <!--     Contact Us -->
+                <!-- </div> -->
+                <div class="col-lg-1 col-2 d-flex justify-content-center" *ngIf="retialerLoginBool">
+                    <img (click)="toggleProfilebox()" src="../../assets/profile.png" class="iconStyle"
+                        alt="">
+                </div>
+            </div>
+        </div>
+        <div [class.profileBoxVisible]="profileBoxShow && !(screenWidth>=600)"
+            [class.profileBoxNotVisible]="!profileBoxShow && !(screenWidth>=600)"
+            [class.profileBoxVisibleDesktop]='profileBoxShow && (screenWidth>=600)'
+            [class.profileBoxNotVisibleDesktop]='!profileBoxShow && (screenWidth>=600)' *ngIf="retialerLoginBool">
+
+            <!-- 
+            <div [class.profileItemVisible]="profileBoxShow && !(screenWidth>=600)"
+                [class.profileItemNotVisible]="!profileBoxShow && !(screenWidth>=600)"
+                [class.profileItemVisibleDesktop]='profileBoxShow && screenWidth>=600'
+                [class.profileItemNotVisibleDesktop]="!profileBoxShow  && screenWidth>=600">
+                Profile
+            </div> -->
+            <div [class.profileItemVisible]="profileBoxShow && !(screenWidth>=600)"
+                [class.profileItemNotVisible]="!profileBoxShow && !(screenWidth>=600)"
+                [class.profileItemVisibleDesktop]='profileBoxShow && screenWidth>=600'
+                [class.profileItemNotVisibleDesktop]="!profileBoxShow  && screenWidth>=600" routerLink="/myAccounts">
+                My Account
+            </div>
+            <div [class.profileItemVisible]="profileBoxShow && !(screenWidth>=600)"
+                [class.profileItemNotVisible]="!profileBoxShow && !(screenWidth>=600)"
+                [class.profileItemVisibleDesktop]='profileBoxShow && screenWidth>=600'
+                [class.profileItemNotVisibleDesktop]="!profileBoxShow  && screenWidth>=600" routerLink="/checkout">
+                Cart
+            </div>
+
+            <div [class.profileItemVisible]="profileBoxShow && !(screenWidth>=600)"
+                [class.profileItemNotVisible]="!profileBoxShow && !(screenWidth>=600)"
+                [class.profileItemVisibleDesktop]='profileBoxShow && screenWidth>=600'
+                [class.profileItemNotVisibleDesktop]="!profileBoxShow  && screenWidth>=600" (click)="logout()">
+                Logout
+            </div>
+        </div>
+    </div>
+</div>

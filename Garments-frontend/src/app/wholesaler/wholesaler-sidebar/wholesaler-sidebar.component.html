@@ -1,0 +1,58 @@
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" id="close" (click)="closeNav()">&times;</a>
+    <div class="row d-flex justify-centent-center">
+        <i class="col-3 fas fa-home"></i>
+        <div class="col-8 Itemname" id="Itemname">
+            <a routerLink="/wholesaler/product/add">Product Add</a>
+        </div>
+    </div>
+    <div class="row d-flex justify-centent-center">
+        <i class="col-3 fas fa-home"></i>
+        <div class="col-8 Itemname" id="Itemname">
+            <a routerLink="/wholesaler/product/manage">Manage Product</a>
+        </div>
+    </div>
+    <div class="row d-flex justify-centent-center">
+        <i class="col-3 fas fa-home"></i>
+        <div class="col-8 Itemname" id="Itemname">
+            <a routerLink="/wholesaler/order/view">View Orders</a>
+        </div>
+    </div>
+    <!-- <div class="row d-flex justify-centent-center">
+        <i class="col-3 fas fa-home"></i>
+        <div class="col-8 Itemname" id="Itemname">
+            <a routerLink="/wholesaler/wholesaler-completedorder">Completed Orders</a>
+        </div>
+    </div> -->
+    <div class="row d-flex justify-centent-center">
+        <i class="col-3 fas fa-home"></i>
+        <div class="col-8 Itemname" id="Itemname">
+            <a routerLink="/wholesaler/stock/view">Stocks</a>
+        </div>
+    </div>
+    <div class="row d-flex justify-centent-center">
+        <i class="col-3 fas fa-home"></i>
+        <div class="col-8 Itemname" id="Itemname">
+            <a routerLink="/wholesaler/document">Verify Documents</a>
+        </div>
+    </div>
+    <!-- <div class="row d-flex justify-centent-center">
+        <i class="col-3 fas fa-home"></i>
+        <div class="col-8 Itemname" id="Itemname">
+            <a href="#">About</a>
+        </div>
+    </div> -->
+    <div class="row d-flex justify-centent-center">
+        <i class="col-3 fas fa-power-off"></i>
+        <div class="col-8 Itemname" id="Itemname">
+            <!-- <div class="anchor" routerLink="/admin/review">Review</div>
+             -->
+            <button class="btn btn-danger" (click)="logout()">Logout</button>
+        </div>
+    </div>
+</div>
+
+<div id="main">
+    <button class="openbtn" id="hamburger" (click)="openNav()">&#9776;</button>
+
+</div>

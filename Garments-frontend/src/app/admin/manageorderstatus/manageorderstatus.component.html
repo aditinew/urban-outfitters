@@ -1,0 +1,67 @@
+<div class="row d-flex justify-content-center" *ngIf="statusArr">
+    <div class="col-lg-9 formContainer">
+        <div class="row">
+            <div class="form-group col-10">
+                <h1 class="text-center heading">Manage Order Status</h1>
+            </div>
+            <div class="form-group col-2" routerLink="/admin/orderstatus">
+                <button type="button" class="btn btn-info">Add <i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="row">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Status Name</th>
+                        <th scope="col">Set Default Status(assinged as soon as ordered)</th>
+                        <th scope="col">Update Status</th>
+                        <th scope="col">Delete Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let el of statusArr;index as i">
+                        <th scope="row">{{i+1}}</th>
+                        <td>{{el.name}}</td>
+                        <td *ngIf="el.defaultStatus">* Currently set As Default *</td>
+                        <td *ngIf="!el.defaultStatus">
+                            <div class="btn btn-success" (click)="setStatusAsDefault(el._id)">Set Status As Default
+                            </div>
+                        </td>
+                        <td>
+                            <div class="btn btn-success" data-toggle="modal" data-target="#exampleModal"
+                                (click)="setUpdateObj(el)">Update
+                            </div>
+                        </td>
+                        <td>
+                            <div class="btn btn-danger" (click)="deleteStatus(el._id)">Delete</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" *ngIf="updateObj"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Update Status for {{updateObj.name}}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <input class="form-control" name='updateObj.name' [(ngModel)]='updateObj.name' type="text">
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" (click)="updateStatus()">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>

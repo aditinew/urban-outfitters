@@ -1,0 +1,298 @@
+.backgroundColor {
+    background-color: #1b3c59;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.mainSlideImageContainer {
+    display: flex;
+    padding: 4rem 0px;
+    overflow: auto;
+    // align-items: center;
+}
+.ViewAllBtn {
+    border: 2px solid #11bfae;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.sliderBoxImage {
+    height: 350px;
+    width: 95%;
+}
+.sliderPreviewBoxImage {
+    height: 250px;
+    width: 100%;
+    // border-radius: 20px;
+}
+.productName {
+    font-size: 28px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+.productBrief {
+    font-size: 15px;
+    word-spacing: 2px;
+    color: white;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin: 1vh 0px;
+}
+.priceDiscounted {
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+.priceNotDiscounted {
+    font-size: 28px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: -1px;
+    text-decoration: line-through;
+    text-decoration-color: #13bcab;
+    margin: 0px 1vw;
+    text-transform: uppercase;
+}
+.PercentageOff {
+    font-size: 28px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+.SelectSizeText {
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+.DetailsText {
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    i {
+        font-size: 17px;
+        align-self: center;
+        margin-left: 8px;
+    }
+}
+.Sizecircle {
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    height: 60px;
+    margin: 2vh 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtocartBtn,
+.buysampleBtn {
+    background-color: white;
+    color: black;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    padding: 5px 2rem;
+    border-radius: 10px;
+    margin: 0px 0px 1rem 0px;
+}
+.noteText {
+    font-size: 20px;
+    color: white;
+}
+.sectionHeading {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 2.2vh 0px;
+}
+
+.ButtonTitle {
+    background-color: white;
+    color: #69e3d7;
+    padding: 1vh 0px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 800;
+    border-radius: 0px 10px 10px 0px;
+}
+.pininputTag {
+    background-color: white;
+    outline: none;
+    padding: 1vh 15px;
+
+    border: white;
+    border-radius: 10px 0px 0px 10px;
+}
+.pininputTag::placeholder {
+    // padding: 0px;
+    color: black;
+    font-size: 16px;
+}
+
+.NotetextblueTint {
+    color: #69e3d7;
+    font-size: 21px;
+}
+.LeftSideNoteArrow {
+    color: white;
+    margin: 8px 0px 0px 0px;
+}
+
+.BestPriceText {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+.productSpecHeading {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 2.2vh 0px;
+}
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    width: 12vw;
+    background-color: transparent;
+    border: transparent;
+    margin: 4vh 1.7vw;
+    .cardImage {
+        height: 200px;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .cardProductName {
+        text-align: center;
+        color: #67e0d4;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 1vh 0px;
+        background-color: #456173;
+    }
+    .cardproduct {
+        text-align: center;
+        color: white;
+        background-color: #456173;
+    }
+    .cardproductcategory {
+        text-align: center;
+        color: white;
+        background-color: #456173;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding-bottom: 1vh;
+    }
+}
+.SimilarProducts {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+/////////////////////////////////////////////////////new ui table style
+.marginpaddingnone {
+    margin: 0px;
+    padding: 0px;
+}
+.tableBackground {
+    background-color: #fff;
+    border-radius: 3px;
+}
+.tableLeft {
+    padding: 5px 15px;
+    margin: 10px 0px;
+    // color: rgba(0, 0, 0, 0.7);
+    color: #1b3c59d7;
+    font-size: 13px;
+    border-right: solid 1px rgba(128, 128, 128, 0.388);
+}
+.tableRight {
+    padding: 5px 15px;
+    font-size: 13px;
+    color: black;
+    margin: 10px 0px;
+    border-left: solid 1px rgba(128, 128, 128, 0.388);
+}
+.borderBottom {
+    border-bottom: solid 1px rgba(128, 128, 128, 0.388);
+}
+.borderBottom:hover {
+    background-color: rgba(211, 208, 208, 0.3);
+}
+@media only screen and (max-width: 600px) {
+    .cardContainer {
+        display: flex;
+        margin: 0px !important;
+        padding: 0px !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .card {
+        width: 70vw;
+        margin: 3vh 15vw;
+    }
+
+    .NotetextblueTint {
+        font-size: 17px;
+    }
+    .addtocartBtn,
+    .buysampleBtn {
+        padding: 2px;
+        font-size: 14px;
+        margin: 2rem 0px 1rem 0px;
+    }
+    .priceDiscounted,
+    .PercentageOff,
+    .priceNotDiscounted {
+        font-size: 24px;
+    }
+    .productSpecHeading {
+        font-size: 19px;
+    }
+    .ViewAllBtn {
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .sliderBoxImage {
+        height: 350px;
+        width: 95%;
+    }
+    .sliderPreviewBoxImage {
+        height: 120px;
+        // border-radius: 20px;
+    }
+    .SimilarProducts {
+        font-size: 20px;
+        color: white;
+        font-weight: 700;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+    }
+}

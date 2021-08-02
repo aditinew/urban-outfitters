@@ -1,0 +1,1997 @@
+.mediaViewInfo {
+	--web-view-name: Particular Variety Detail Page – 1;
+	--web-view-id: Particular_Variety_Detail_Page__1;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Particular_Variety_Detail_Page__1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Particular_Variety_Detail_Page__1 {
+	position: absolute;
+	width: 1668px;
+	height: 3558px;
+	background-color: rgba(27,60,89,1);
+	overflow: hidden;
+	--web-view-name: Particular Variety Detail Page – 1;
+	--web-view-id: Particular_Variety_Detail_Page__1;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#header_up {
+	position: absolute;
+	width: 1688px;
+	height: 174px;
+	left: -20px;
+	top: -14px;
+	overflow: visible;
+}
+#Rectangle_3_q {
+	fill: url(#Rectangle_3_q);
+}
+.Rectangle_3_q {
+	position: absolute;
+	overflow: visible;
+	width: 1688px;
+	height: 174px;
+	left: 0px;
+	top: 0px;
+}
+#Sign_In {
+	left: 1295px;
+	top: 72px;
+	position: absolute;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(242,242,240,1);
+}
+#Group_1 {
+	position: absolute;
+	width: 170px;
+	height: 34px;
+	left: 1448px;
+	top: 67px;
+	overflow: visible;
+}
+#Rectangle_15 {
+	fill: transparent;
+	stroke: rgba(17,191,174,1);
+	stroke-width: 1.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 170px;
+	height: 34px;
+	left: 0px;
+	top: 0px;
+}
+#Group_9 {
+	position: absolute;
+	width: 95px;
+	height: 21px;
+	left: 27px;
+	top: 7px;
+	overflow: visible;
+}
+#Add_Listing {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 96px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(242,242,240,1);
+}
+#iconfinder_icon-plus-round_211 {
+	fill: rgba(242,242,240,1);
+}
+.iconfinder_icon-plus-round_211 {
+	overflow: visible;
+	position: absolute;
+	width: 12.683px;
+	height: 12.683px;
+	left: 134.206px;
+	top: 11.311px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#GARMENTS_WHITE {
+	position: absolute;
+	width: 360px;
+	height: 151px;
+	left: 49px;
+	top: 17px;
+	overflow: visible;
+}
+#Compound_Shape {
+	opacity: 0.3;
+	fill: rgba(17,191,174,1);
+}
+.Compound_Shape {
+	overflow: visible;
+	position: absolute;
+	width: 1681.407px;
+	height: 255.318px;
+	left: -6.407px;
+	top: 3262px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#FOOTER {
+	position: absolute;
+	width: 1668px;
+	height: 725px;
+	left: 7px;
+	top: 2816px;
+	overflow: visible;
+}
+#Rectangle_99 {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_99 {
+	position: absolute;
+	overflow: visible;
+	width: 1668px;
+	height: 571px;
+	left: 0px;
+	top: 0px;
+}
+#Know_More {
+	left: 620px;
+	top: 53px;
+	position: absolute;
+	overflow: visible;
+	width: 111px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#CONNECT_WITH_US_ON_SOCIAL_MEDI {
+	left: 643px;
+	top: 402px;
+	position: absolute;
+	overflow: visible;
+	width: 383px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#Garments_Infomedia_is_unique_B {
+	left: 91px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 339px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#Important_Links {
+	left: 953px;
+	top: 53px;
+	position: absolute;
+	overflow: visible;
+	width: 157px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#Other_Links {
+	left: 1283px;
+	top: 53px;
+	position: absolute;
+	overflow: visible;
+	width: 115px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#About_Us_Privacy_Policy_Terms_ {
+	left: 631px;
+	top: 119px;
+	position: absolute;
+	overflow: visible;
+	width: 217px;
+	height: 150px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(105,227,215,1);
+}
+#Premium_Membership_Banner_Adve {
+	left: 917px;
+	top: 126px;
+	position: absolute;
+	overflow: visible;
+	width: 237px;
+	height: 150px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(105,227,215,1);
+}
+#Game__Fashion_Blogs_Garments_S {
+	left: 1336px;
+	top: 120px;
+	position: absolute;
+	overflow: visible;
+	width: 237px;
+	height: 207px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(105,227,215,1);
+}
+#iconfinder_1_social_2609541 {
+	position: absolute;
+	width: 37.854px;
+	height: 32.478px;
+	left: 658.164px;
+	top: 475.65px;
+	overflow: visible;
+}
+#Path_8817 {
+	fill: rgba(79,118,187,1);
+}
+.Path_8817 {
+	overflow: visible;
+	position: absolute;
+	width: 37.854px;
+	height: 32.478px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8818 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8818 {
+	overflow: visible;
+	position: absolute;
+	width: 10.698px;
+	height: 17.587px;
+	left: 13.574px;
+	top: 7.482px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#iconfinder_2_social_2609552 {
+	position: absolute;
+	width: 37.854px;
+	height: 32.478px;
+	left: 721.015px;
+	top: 475.65px;
+	overflow: visible;
+}
+#Path_8819 {
+	fill: rgba(52,196,243,1);
+}
+.Path_8819 {
+	overflow: visible;
+	position: absolute;
+	width: 37.854px;
+	height: 32.478px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8820 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8820 {
+	overflow: visible;
+	position: absolute;
+	width: 20.96px;
+	height: 14.632px;
+	left: 9.035px;
+	top: 8.914px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#iconfinder_3_social_2609563 {
+	position: absolute;
+	width: 37.854px;
+	height: 32.478px;
+	left: 783.866px;
+	top: 475.65px;
+	overflow: visible;
+}
+#Path_8821 {
+	fill: rgba(241,87,74,1);
+}
+.Path_8821 {
+	overflow: visible;
+	position: absolute;
+	width: 37.854px;
+	height: 32.478px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_113 {
+	position: absolute;
+	width: 25.396px;
+	height: 13.794px;
+	left: 7.955px;
+	top: 9.477px;
+	overflow: visible;
+}
+#Path_8822 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8822 {
+	overflow: visible;
+	position: absolute;
+	width: 15.755px;
+	height: 13.794px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8823 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8823 {
+	overflow: visible;
+	position: absolute;
+	width: 7.8px;
+	height: 6.692px;
+	left: 17.596px;
+	top: 3.184px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#iconfinder_4_social_2609574 {
+	position: absolute;
+	width: 37.854px;
+	height: 32.478px;
+	left: 846.718px;
+	top: 475.65px;
+	overflow: visible;
+}
+#Path_8824 {
+	fill: rgba(19,135,200,1);
+}
+.Path_8824 {
+	overflow: visible;
+	position: absolute;
+	width: 37.854px;
+	height: 32.478px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_114 {
+	position: absolute;
+	width: 19.045px;
+	height: 16.303px;
+	left: 10.203px;
+	top: 8.088px;
+	overflow: visible;
+}
+#Path_8825 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8825 {
+	overflow: visible;
+	position: absolute;
+	width: 4.576px;
+	height: 16.302px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8826 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8826 {
+	overflow: visible;
+	position: absolute;
+	width: 12.302px;
+	height: 11.152px;
+	left: 6.743px;
+	top: 5.151px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#iconfinder_6_social_2609577 {
+	position: absolute;
+	width: 37.854px;
+	height: 32.478px;
+	left: 909.569px;
+	top: 475.65px;
+	overflow: visible;
+}
+#Path_8827 {
+	fill: rgba(239,63,56,1);
+}
+.Path_8827 {
+	overflow: visible;
+	position: absolute;
+	width: 37.854px;
+	height: 32.478px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8828 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8828 {
+	overflow: visible;
+	position: absolute;
+	width: 21.199px;
+	height: 12.75px;
+	left: 8.328px;
+	top: 9.861px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#iconfinder_8_social_2609579 {
+	position: absolute;
+	width: 37.854px;
+	height: 32.478px;
+	left: 972.42px;
+	top: 475.65px;
+	overflow: visible;
+}
+#Path_8829 {
+	fill: rgba(66,228,95,1);
+}
+.Path_8829 {
+	overflow: visible;
+	position: absolute;
+	width: 37.854px;
+	height: 32.478px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_115 {
+	position: absolute;
+	width: 19.257px;
+	height: 16.613px;
+	left: 9.301px;
+	top: 7.93px;
+	overflow: visible;
+}
+#Path_8830 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8830 {
+	overflow: visible;
+	position: absolute;
+	width: 19.257px;
+	height: 16.613px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8831 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8831 {
+	overflow: visible;
+	position: absolute;
+	width: 9.709px;
+	height: 7.757px;
+	left: 4.784px;
+	top: 4.439px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#GARMENTS_WHITE_bx {
+	position: absolute;
+	width: 272px;
+	height: 114px;
+	left: 91px;
+	top: 53px;
+	overflow: visible;
+}
+#Copyrights__2020_Garments_Info {
+	left: 575px;
+	top: 702px;
+	position: absolute;
+	overflow: visible;
+	width: 501px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(242,242,240,1);
+}
+#SD_04_T74_9518E_E5_X_EC_90 {
+	position: absolute;
+	width: 190px;
+	height: 258px;
+	left: 42px;
+	top: 448px;
+	overflow: visible;
+}
+#men-denim-jeans-pant-500x500 {
+	position: absolute;
+	width: 179px;
+	height: 250px;
+	left: 48px;
+	top: 778px;
+	overflow: visible;
+}
+#download {
+	position: absolute;
+	width: 190.5px;
+	height: 282.5px;
+	left: 42px;
+	top: 1100px;
+	overflow: visible;
+}
+#download_2 {
+	position: absolute;
+	width: 179.5px;
+	height: 274.5px;
+	left: 48px;
+	top: 1455px;
+	overflow: visible;
+}
+#download_3 {
+	position: absolute;
+	width: 185.5px;
+	height: 256.5px;
+	left: 42px;
+	top: 174px;
+	overflow: visible;
+}
+#SD_04_T74_9518E_E5_X_EC_90_b {
+	position: absolute;
+	width: 712px;
+	height: 779px;
+	left: 279px;
+	top: 431px;
+	overflow: visible;
+}
+#HIGHLANDER {
+	opacity: 0.971;
+	left: 1029px;
+	top: 167px;
+	position: absolute;
+	overflow: visible;
+	width: 270px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	color: rgba(255,255,255,1);
+}
+#Similar_Products {
+	opacity: 0.971;
+	left: 41px;
+	top: 1795px;
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	color: rgba(255,255,255,1);
+}
+#INR_649_INR_1398 {
+	opacity: 0.971;
+	left: 1029px;
+	top: 332px;
+	position: absolute;
+	overflow: visible;
+	width: 330px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	color: rgba(255,255,255,1);
+}
+#Men_Black_Tapered_Fit_Mid-Rise {
+	opacity: 0.971;
+	left: 1029px;
+	top: 242px;
+	position: absolute;
+	overflow: visible;
+	width: 528px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+}
+#Delivery_options {
+	opacity: 0.971;
+	left: 1034px;
+	top: 772px;
+	position: absolute;
+	overflow: visible;
+	width: 271px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(255,255,255,1);
+}
+#BEST_OFFERS {
+	opacity: 0.971;
+	left: 1029px;
+	top: 1333px;
+	position: absolute;
+	overflow: visible;
+	width: 233px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(255,255,255,1);
+}
+#Product_Details {
+	opacity: 0.971;
+	left: 1034px;
+	top: 1726px;
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(255,255,255,1);
+}
+#Product_Code_GIM9988 {
+	opacity: 0.971;
+	left: 1048px;
+	top: 2347px;
+	position: absolute;
+	overflow: visible;
+	width: 411px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(255,255,255,1);
+}
+#Sold_By_Abc_Suppliers {
+	opacity: 0.971;
+	left: 1049px;
+	top: 2411px;
+	position: absolute;
+	overflow: visible;
+	width: 378px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(255,255,255,1);
+}
+#Best_Price__INR_649 {
+	opacity: 0.971;
+	left: 1029px;
+	top: 1409px;
+	position: absolute;
+	overflow: visible;
+	width: 260px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+}
+#Line_5 {
+	fill: transparent;
+	stroke: rgba(19,188,171,1);
+	stroke-width: 10px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_5 {
+	mix-blend-mode: darken;
+	overflow: visible;
+	position: absolute;
+	width: 165px;
+	height: 10px;
+	left: 1193.5px;
+	top: 357.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ID50_Off {
+	left: 1377px;
+	top: 327px;
+	position: absolute;
+	overflow: visible;
+	width: 179px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	color: rgba(255,255,255,1);
+}
+#Group_151 {
+	position: absolute;
+	width: 598px;
+	height: 100px;
+	left: 1029px;
+	top: 483px;
+	overflow: visible;
+}
+#Ellipse_22 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_22 {
+	position: absolute;
+	overflow: visible;
+	width: 98px;
+	height: 98px;
+	left: 0px;
+	top: 2px;
+}
+#Ellipse_23 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_23 {
+	position: absolute;
+	overflow: visible;
+	width: 98px;
+	height: 98px;
+	left: 125px;
+	top: 0px;
+}
+#Ellipse_24 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_24 {
+	position: absolute;
+	overflow: visible;
+	width: 98px;
+	height: 98px;
+	left: 250px;
+	top: 2px;
+}
+#Ellipse_25 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_25 {
+	position: absolute;
+	overflow: visible;
+	width: 98px;
+	height: 98px;
+	left: 375px;
+	top: 2px;
+}
+#Ellipse_26 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_26 {
+	position: absolute;
+	overflow: visible;
+	width: 98px;
+	height: 98px;
+	left: 500px;
+	top: 2px;
+}
+#ID30 {
+	left: 27px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 52px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	color: rgba(1,11,10,1);
+}
+#ID32 {
+	left: 152px;
+	top: 22px;
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	color: rgba(1,11,10,1);
+}
+#ID34 {
+	left: 277px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 52px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	color: rgba(1,11,10,1);
+}
+#ID36 {
+	left: 402px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 52px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	color: rgba(1,11,10,1);
+}
+#ID38 {
+	left: 527px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 52px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	color: rgba(1,11,10,1);
+}
+#Group_152 {
+	position: absolute;
+	width: 578px;
+	height: 43px;
+	left: 1029px;
+	top: 415px;
+	overflow: visible;
+}
+#Select_Size {
+	opacity: 0.971;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 185px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(255,255,255,1);
+}
+#Detail {
+	opacity: 0.971;
+	left: 438px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 89px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: rgba(255,255,255,1);
+}
+#Icon_feather-arrow-right-circl {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 548px;
+	top: 7px;
+	overflow: visible;
+}
+#Path_8842 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_8842 {
+	overflow: visible;
+	position: absolute;
+	width: 33px;
+	height: 33px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8843 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_8843 {
+	overflow: visible;
+	position: absolute;
+	width: 9.621px;
+	height: 16.243px;
+	left: 15px;
+	top: 9px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8844 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_8844 {
+	overflow: visible;
+	position: absolute;
+	width: 15px;
+	height: 3px;
+	left: 9px;
+	top: 15px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_109 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_109 {
+	position: absolute;
+	overflow: visible;
+	width: 286px;
+	height: 73px;
+	left: 1034px;
+	top: 656px;
+}
+#Rectangle_110 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_110 {
+	position: absolute;
+	overflow: visible;
+	width: 286px;
+	height: 73px;
+	left: 1341px;
+	top: 656px;
+}
+#Add_To_Cart {
+	left: 1081px;
+	top: 671px;
+	position: absolute;
+	overflow: visible;
+	width: 183px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: rgba(1,11,10,1);
+}
+#Buy_Sample {
+	left: 1388px;
+	top: 671px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: rgba(1,11,10,1);
+}
+#Rectangle_111 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_111 {
+	position: absolute;
+	overflow: visible;
+	width: 598px;
+	height: 86px;
+	left: 1029px;
+	top: 840px;
+}
+#_ {
+	left: 1090px;
+	top: 857px;
+	position: absolute;
+	overflow: visible;
+	width: 10px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	color: rgba(0,0,0,1);
+}
+#Enter_Pincode {
+	left: 1064px;
+	top: 866px;
+	position: absolute;
+	overflow: visible;
+	width: 168px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(0,0,0,1);
+}
+#Check {
+	left: 1472px;
+	top: 867px;
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(105,227,215,1);
+}
+#Please_enter_PIN_code_to_check {
+	left: 1029px;
+	top: 973px;
+	position: absolute;
+	overflow: visible;
+	width: 479px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+}
+#Buys_sample_to_test_the_clothe {
+	left: 1096px;
+	top: 1074px;
+	position: absolute;
+	overflow: visible;
+	width: 508px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(105,227,215,1);
+}
+#Applicable_on_Order_above__INR {
+	left: 1097px;
+	top: 1467px;
+	position: absolute;
+	overflow: visible;
+	width: 498px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(105,227,215,1);
+}
+#Payn_on_delivery_might_be_avai {
+	left: 1096px;
+	top: 1157px;
+	position: absolute;
+	overflow: visible;
+	width: 463px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(105,227,215,1);
+}
+#Coupon_Code_GIM300 {
+	left: 1097px;
+	top: 1550px;
+	position: absolute;
+	overflow: visible;
+	width: 314px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(105,227,215,1);
+}
+#Free_Delivery_on_order_above_I {
+	left: 1096px;
+	top: 1116px;
+	position: absolute;
+	overflow: visible;
+	width: 495px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(105,227,215,1);
+}
+#Applicable_only_on_first_purch {
+	left: 1097px;
+	top: 1509px;
+	position: absolute;
+	overflow: visible;
+	width: 431px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(105,227,215,1);
+}
+#Easy_One_Week_Return__Exchange {
+	left: 1096px;
+	top: 1197px;
+	position: absolute;
+	overflow: visible;
+	width: 556px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(105,227,215,1);
+}
+#Coupon_Discount_Rs_300_off__ch {
+	left: 1097px;
+	top: 1590px;
+	position: absolute;
+	overflow: visible;
+	width: 401px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(105,227,215,1);
+}
+#ID100_Original_Products_ {
+	left: 1093px;
+	top: 1241px;
+	position: absolute;
+	overflow: visible;
+	width: 313px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(105,227,215,1);
+}
+#Icon_ionic-ios-arrow-dropright {
+	position: absolute;
+	width: 29.25px;
+	height: 29.25px;
+	left: 1029px;
+	top: 1082px;
+	overflow: visible;
+}
+#Path_8845 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8845 {
+	overflow: visible;
+	position: absolute;
+	width: 9.424px;
+	height: 16.026px;
+	left: 11.039px;
+	top: 6.608px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8846 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8846 {
+	overflow: visible;
+	position: absolute;
+	width: 29.25px;
+	height: 29.25px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_ionic-ios-arrow-dropright_dk {
+	position: absolute;
+	width: 29.25px;
+	height: 29.25px;
+	left: 1029px;
+	top: 1123px;
+	overflow: visible;
+}
+#Path_8845_dl {
+	fill: rgba(255,255,255,1);
+}
+.Path_8845_dl {
+	overflow: visible;
+	position: absolute;
+	width: 9.424px;
+	height: 16.026px;
+	left: 11.039px;
+	top: 6.608px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8846_dm {
+	fill: rgba(255,255,255,1);
+}
+.Path_8846_dm {
+	overflow: visible;
+	position: absolute;
+	width: 29.25px;
+	height: 29.25px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_ionic-ios-arrow-dropright_dn {
+	position: absolute;
+	width: 29.25px;
+	height: 29.25px;
+	left: 1029px;
+	top: 1164px;
+	overflow: visible;
+}
+#Path_8845_do {
+	fill: rgba(255,255,255,1);
+}
+.Path_8845_do {
+	overflow: visible;
+	position: absolute;
+	width: 9.424px;
+	height: 16.026px;
+	left: 11.039px;
+	top: 6.608px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8846_dp {
+	fill: rgba(255,255,255,1);
+}
+.Path_8846_dp {
+	overflow: visible;
+	position: absolute;
+	width: 29.25px;
+	height: 29.25px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_ionic-ios-arrow-dropright_dq {
+	position: absolute;
+	width: 29.25px;
+	height: 29.25px;
+	left: 1029px;
+	top: 1205px;
+	overflow: visible;
+}
+#Path_8845_dr {
+	fill: rgba(255,255,255,1);
+}
+.Path_8845_dr {
+	overflow: visible;
+	position: absolute;
+	width: 9.424px;
+	height: 16.026px;
+	left: 11.039px;
+	top: 6.608px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8846_ds {
+	fill: rgba(255,255,255,1);
+}
+.Path_8846_ds {
+	overflow: visible;
+	position: absolute;
+	width: 29.25px;
+	height: 29.25px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_ionic-ios-arrow-dropright_dt {
+	position: absolute;
+	width: 29.25px;
+	height: 29.25px;
+	left: 1029px;
+	top: 1246px;
+	overflow: visible;
+}
+#Path_8845_du {
+	fill: rgba(255,255,255,1);
+}
+.Path_8845_du {
+	overflow: visible;
+	position: absolute;
+	width: 9.424px;
+	height: 16.026px;
+	left: 11.039px;
+	top: 6.608px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8846_dv {
+	fill: rgba(255,255,255,1);
+}
+.Path_8846_dv {
+	overflow: visible;
+	position: absolute;
+	width: 29.25px;
+	height: 29.25px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-dot-circle {
+	opacity: 0.998;
+	fill: rgba(255,255,255,1);
+}
+.Icon_awesome-dot-circle {
+	overflow: visible;
+	position: absolute;
+	width: 34.875px;
+	height: 34.875px;
+	left: 1029px;
+	top: 1469px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-dot-circle_dx {
+	fill: rgba(255,255,255,1);
+}
+.Icon_awesome-dot-circle_dx {
+	overflow: visible;
+	position: absolute;
+	width: 34.875px;
+	height: 34.875px;
+	left: 1029px;
+	top: 1509px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-dot-circle_dy {
+	fill: rgba(255,255,255,1);
+}
+.Icon_awesome-dot-circle_dy {
+	overflow: visible;
+	position: absolute;
+	width: 34.875px;
+	height: 34.875px;
+	left: 1029px;
+	top: 1549px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-dot-circle_dz {
+	fill: rgba(255,255,255,1);
+}
+.Icon_awesome-dot-circle_dz {
+	overflow: visible;
+	position: absolute;
+	width: 34.875px;
+	height: 34.875px;
+	left: 1029px;
+	top: 1589px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#orem_Ipsum_is_simply_dummy_tex {
+	left: 1046px;
+	top: 1845px;
+	position: absolute;
+	overflow: visible;
+	width: 582px;
+	height: 481px;
+	text-align: left;
+	font-family: .AppleSystemUIFont;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(105,227,215,1);
+}
+#tex_mill {
+	position: absolute;
+	width: 234px;
+	height: 382px;
+	left: 48px;
+	top: 1930px;
+	overflow: visible;
+}
+#Rectangle_32 {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_32 {
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	height: 382px;
+	left: 0px;
+	top: 0px;
+}
+#NoPath_-_Copy_25 {
+	filter: drop-shadow(0px 3px 6px rgba(27, 60, 89, 1));
+	position: absolute;
+	width: 234px;
+	height: 297px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#HIGHLANDER_d {
+	left: 50px;
+	top: 306px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(105,227,215,1);
+}
+#Fabric_SoldPopularity {
+	left: 61px;
+	top: 337px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(242,242,240,1);
+}
+#tex_mill_d {
+	position: absolute;
+	width: 925px;
+	height: 697px;
+	left: 50px;
+	top: 2073px;
+	overflow: visible;
+}
+#Rectangle_32_d {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_32_d {
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	height: 382px;
+	left: 0px;
+	top: 315px;
+}
+#NoPath_-_Copy_25_d {
+	filter: drop-shadow(0px 3px 6px rgba(27, 60, 89, 1));
+	position: absolute;
+	width: 234px;
+	height: 297px;
+	left: 0px;
+	top: 315px;
+	overflow: visible;
+}
+#HIGHLANDER_ea {
+	left: 50px;
+	top: 621px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(105,227,215,1);
+}
+#Fabric_SoldPopularity_ea {
+	left: 61px;
+	top: 652px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(242,242,240,1);
+}
+#HIGHLANDER_eb {
+	left: 625px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	height: 300px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#tex_mill_ec {
+	position: absolute;
+	width: 234px;
+	height: 382px;
+	left: 355px;
+	top: 1930px;
+	overflow: visible;
+}
+#Rectangle_32_ed {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_32_ed {
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	height: 382px;
+	left: 0px;
+	top: 0px;
+}
+#NoPath_-_Copy_25_ee {
+	filter: drop-shadow(0px 3px 6px rgba(27, 60, 89, 1));
+	position: absolute;
+	width: 234px;
+	height: 297px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#HIGHLANDER_ef {
+	left: 57px;
+	top: 306px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(105,227,215,1);
+}
+#Fabric_SoldPopularity_eg {
+	left: 61px;
+	top: 337px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(242,242,240,1);
+}
+#tex_mill_eh {
+	position: absolute;
+	width: 234px;
+	height: 382px;
+	left: 357px;
+	top: 2388px;
+	overflow: visible;
+}
+#Rectangle_32_ei {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_32_ei {
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	height: 382px;
+	left: 0px;
+	top: 0px;
+}
+#NoPath_-_Copy_25_ej {
+	filter: drop-shadow(0px 3px 6px rgba(27, 60, 89, 1));
+	position: absolute;
+	width: 234px;
+	height: 297px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#HIGHLANDER_ek {
+	left: 54px;
+	top: 306px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(105,227,215,1);
+}
+#Fabric_SoldPopularity_el {
+	left: 61px;
+	top: 337px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(242,242,240,1);
+}
+#tex_mill_em {
+	position: absolute;
+	width: 234px;
+	height: 382px;
+	left: 662px;
+	top: 1930px;
+	overflow: visible;
+}
+#Rectangle_32_en {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_32_en {
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	height: 382px;
+	left: 0px;
+	top: 0px;
+}
+#NoPath_-_Copy_25_eo {
+	filter: drop-shadow(0px 3px 6px rgba(27, 60, 89, 1));
+	position: absolute;
+	width: 234px;
+	height: 297px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#HIGHLANDER_ep {
+	left: 56px;
+	top: 303px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(105,227,215,1);
+}
+#Fabric_SoldPopularity_eq {
+	left: 61px;
+	top: 337px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(242,242,240,1);
+}
+#tex_mill_er {
+	position: absolute;
+	width: 234px;
+	height: 382px;
+	left: 664px;
+	top: 2388px;
+	overflow: visible;
+}
+#Rectangle_32_es {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_32_es {
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	height: 382px;
+	left: 0px;
+	top: 0px;
+}
+#NoPath_-_Copy_25_et {
+	filter: drop-shadow(0px 3px 6px rgba(27, 60, 89, 1));
+	position: absolute;
+	width: 234px;
+	height: 297px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#HIGHLANDER_eu {
+	left: 49px;
+	top: 305px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(105,227,215,1);
+}
+#Fabric_SoldPopularity_ev {
+	left: 61px;
+	top: 337px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(242,242,240,1);
+}
+#SD_04_T74_9518E_E5_X_EC_90_ew {
+	position: absolute;
+	width: 232px;
+	height: 317px;
+	left: 50px;
+	top: 1911px;
+	overflow: visible;
+}
+#SD_04_T74_9518E_E5_X_EC_90_ex {
+	position: absolute;
+	width: 232px;
+	height: 317px;
+	left: 52px;
+	top: 2369px;
+	overflow: visible;
+}
+#ID78d9848e41bff23894747e96dbab {
+	position: absolute;
+	width: 232px;
+	height: 317px;
+	left: 357px;
+	top: 1911px;
+	overflow: visible;
+}
+#ID78d9848e41bff23894747e96dbab_ez {
+	position: absolute;
+	width: 232px;
+	height: 317px;
+	left: 359px;
+	top: 2369px;
+	overflow: visible;
+}
+#SD_04_T74_9518E_E5_X_EC_90_e {
+	position: absolute;
+	width: 232px;
+	height: 317px;
+	left: 664px;
+	top: 1911px;
+	overflow: visible;
+}
+#SD_04_T74_9518E_E5_X_EC_90_fa {
+	position: absolute;
+	width: 232px;
+	height: 317px;
+	left: 666px;
+	top: 2369px;
+	overflow: visible;
+}
+#SD_03_T07_2053_FE_X_EC_90 {
+	position: absolute;
+	width: 234px;
+	height: 317px;
+	left: 48px;
+	top: 1911px;
+	overflow: visible;
+}
+#SD_03_T07_2053_FE_X_EC_90_e {
+	position: absolute;
+	width: 234px;
+	height: 317px;
+	left: 50px;
+	top: 2369px;
+	overflow: visible;
+}
+#download_1 {
+	position: absolute;
+	width: 235.5px;
+	height: 317.5px;
+	left: 662px;
+	top: 1911px;
+	overflow: visible;
+}
+#download_1_e {
+	position: absolute;
+	width: 235.5px;
+	height: 317.5px;
+	left: 664px;
+	top: 2369px;
+	overflow: visible;
+}
+#Group_154 {
+	position: absolute;
+	width: 213px;
+	height: 41px;
+	left: 687px;
+	top: 1800px;
+	overflow: visible;
+}
+#Rectangle_89 {
+	fill: transparent;
+	stroke: rgba(17,191,174,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_89 {
+	position: absolute;
+	overflow: visible;
+	width: 213px;
+	height: 41px;
+	left: 0px;
+	top: 0px;
+}
+#View_All {
+	left: 68px;
+	top: 8px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}

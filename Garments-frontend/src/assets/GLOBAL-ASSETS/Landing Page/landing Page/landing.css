@@ -1,0 +1,2870 @@
+.mediaViewInfo {
+	--web-view-name: landing;
+	--web-view-id: landing;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: landing;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#landing {
+	position: absolute;
+	width: 1366px;
+	height: 5211px;
+	background-color: rgba(27,60,89,1);
+	overflow: hidden;
+	--web-view-name: landing;
+	--web-view-id: landing;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Compound_Shape {
+	opacity: 0.3;
+	fill: rgba(17,191,174,1);
+}
+.Compound_Shape {
+	overflow: visible;
+	position: absolute;
+	width: 1366px;
+	height: 216.917px;
+	left: 0px;
+	top: 2427px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Compound_Shape_k {
+	opacity: 0.3;
+	fill: rgba(17,191,174,1);
+}
+.Compound_Shape_k {
+	overflow: visible;
+	position: absolute;
+	width: 1366px;
+	height: 216.917px;
+	left: 0px;
+	top: 4943px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Blue_main_bkg_image {
+	position: absolute;
+	width: 1366px;
+	height: 768px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Mask_Group_2 {
+	position: absolute;
+	width: 1366px;
+	height: 768px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Compound_Shape_n {
+	opacity: 0.4;
+	fill: rgba(17,191,174,1);
+}
+.Compound_Shape_n {
+	overflow: visible;
+	position: absolute;
+	width: 1366px;
+	height: 238.34px;
+	left: 0px;
+	top: 72px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_GARMENTS_NEEDS {
+	left: 318px;
+	top: 185px;
+	position: absolute;
+	overflow: visible;
+	width: 732px;
+	height: 155px;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	color: rgba(105,227,215,1);
+}
+#Manufacturer_To_Wholesaler_and {
+	left: 364px;
+	top: 340px;
+	position: absolute;
+	overflow: visible;
+	width: 639px;
+	height: 94px;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#Group_10 {
+	position: absolute;
+	width: 177px;
+	height: 35px;
+	left: 972px;
+	top: 460px;
+	overflow: visible;
+}
+#Path_1 {
+	fill: rgba(17,191,174,1);
+}
+.Path_1 {
+	filter: drop-shadow(0px 3px 6px rgba(17, 191, 174, 1));
+	overflow: visible;
+	position: absolute;
+	width: 195px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_9 {
+	position: absolute;
+	width: 74px;
+	height: 16px;
+	left: 52px;
+	top: 10px;
+	overflow: visible;
+}
+#SEARCH {
+	left: 18px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 57px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(255,255,255,1);
+}
+#Page-1 {
+	position: absolute;
+	width: 12.1px;
+	height: 12.1px;
+	left: 0px;
+	top: 2.4px;
+	overflow: visible;
+}
+#Core {
+	position: absolute;
+	width: 12.1px;
+	height: 12.1px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#search {
+	position: absolute;
+	width: 12.1px;
+	height: 12.1px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Shape {
+	fill: rgba(255,255,255,1);
+}
+.Shape {
+	overflow: visible;
+	position: absolute;
+	width: 12.1px;
+	height: 12.1px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_117 {
+	position: absolute;
+	width: 170px;
+	height: 35px;
+	left: 254px;
+	top: 460px;
+	overflow: visible;
+}
+#Rectangle_19 {
+	fill: rgba(242,242,240,1);
+	stroke: rgba(69,97,115,1);
+	stroke-width: 1.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_19 {
+	position: absolute;
+	overflow: visible;
+	width: 170px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-play-arrow {
+	fill: rgba(69,97,115,1);
+}
+.Icon_material-play-arrow {
+	overflow: visible;
+	position: absolute;
+	width: 5.696px;
+	height: 7.25px;
+	transform: translate(-254px, -460px) matrix(1,0,0,1,402.5268,474.2768) rotate(90deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#MensWomens {
+	left: 25px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(27,60,89,1);
+}
+#Group_118 {
+	position: absolute;
+	width: 488px;
+	height: 35px;
+	left: 454px;
+	top: 460px;
+	overflow: visible;
+}
+#Rectangle_20 {
+	fill: rgba(242,242,240,1);
+	stroke: rgba(69,97,115,1);
+	stroke-width: 1.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_20 {
+	position: absolute;
+	overflow: visible;
+	width: 488px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+}
+#Enter_your_garment_needs {
+	opacity: 0.998;
+	left: 24px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 173px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(27,60,89,1);
+}
+#Rectangle_22 {
+	fill: rgba(27,60,89,1);
+}
+.Rectangle_22 {
+	position: absolute;
+	overflow: visible;
+	width: 1366px;
+	height: 182px;
+	left: 0px;
+	top: 658px;
+}
+#Compound_Shape_ {
+	opacity: 0.3;
+	fill: rgba(17,191,174,1);
+}
+.Compound_Shape_ {
+	overflow: visible;
+	position: absolute;
+	width: 1366px;
+	height: 216.918px;
+	left: 0px;
+	top: 905px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Garments_infomedia_is_a_best_l {
+	left: 73px;
+	top: 903px;
+	position: absolute;
+	overflow: hidden;
+	width: 1190px;
+	height: 608px;
+	text-align: left;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(242,242,240,1);
+}
+#REVIEWS_AND_RATINGS {
+	left: 118px;
+	top: 2668px;
+	position: absolute;
+	overflow: visible;
+	width: 296px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(105,227,215,1);
+}
+#Group_101 {
+	position: absolute;
+	width: 213px;
+	height: 41px;
+	left: 1049px;
+	top: 2668px;
+	overflow: visible;
+}
+#Rectangle_89 {
+	fill: transparent;
+	stroke: rgba(17,191,174,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_89 {
+	position: absolute;
+	overflow: visible;
+	width: 213px;
+	height: 41px;
+	left: 0px;
+	top: 0px;
+}
+#View_All {
+	left: 68px;
+	top: 8px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#Rectangle_90 {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_90 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 1172px;
+	height: 487px;
+	left: 108px;
+	top: 2765px;
+}
+#Rectangle_94 {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_94 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 1118px;
+	height: 452px;
+	left: 140px;
+	top: 3291px;
+}
+#VERFIED_BUYERS {
+	left: 604px;
+	top: 2814px;
+	position: absolute;
+	overflow: visible;
+	width: 173px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#TRUSTED_SELLERS {
+	left: 597px;
+	top: 3318px;
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#Group_103 {
+	position: absolute;
+	width: 460px;
+	height: 290px;
+	left: 198px;
+	top: 2889px;
+	overflow: visible;
+}
+#Rectangle_91 {
+	fill: rgba(242,242,240,1);
+}
+.Rectangle_91 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 478px;
+	height: 308px;
+	left: 0px;
+	top: 0px;
+}
+#Icons {
+	position: absolute;
+	width: 44.055px;
+	height: 44.055px;
+	left: 25px;
+	top: 24px;
+	overflow: visible;
+}
+#Group_55 {
+	position: absolute;
+	width: 44.055px;
+	height: 44.055px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_256 {
+	fill: rgba(48,48,48,1);
+}
+.Path_256 {
+	overflow: visible;
+	position: absolute;
+	width: 44.055px;
+	height: 44.055px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Poonam_Rane {
+	left: 80px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(17,191,174,1);
+}
+#from_Mumbai {
+	left: 81px;
+	top: 48px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(69,97,115,1);
+}
+#Customer_Review {
+	position: absolute;
+	width: 150.933px;
+	height: 25.556px;
+	left: 155px;
+	top: 154.07px;
+	overflow: visible;
+}
+#Path_8811 {
+	fill: rgba(17,191,174,1);
+}
+.Path_8811 {
+	overflow: visible;
+	position: absolute;
+	width: 26.758px;
+	height: 25.442px;
+	left: 0px;
+	top: 0.115px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8812 {
+	fill: rgba(17,191,174,1);
+}
+.Path_8812 {
+	overflow: visible;
+	position: absolute;
+	width: 26.73px;
+	height: 25.442px;
+	left: 31.051px;
+	top: 0.115px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8813 {
+	fill: rgba(17,191,174,1);
+}
+.Path_8813 {
+	overflow: visible;
+	position: absolute;
+	width: 26.758px;
+	height: 25.442px;
+	left: 62.073px;
+	top: 0.115px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8814 {
+	fill: rgba(27,60,89,1);
+}
+.Path_8814 {
+	overflow: visible;
+	position: absolute;
+	width: 26.901px;
+	height: 25.556px;
+	left: 93.124px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8815 {
+	fill: rgba(27,60,89,1);
+}
+.Path_8815 {
+	overflow: visible;
+	position: absolute;
+	width: 26.815px;
+	height: 25.556px;
+	left: 124.118px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Great_service {
+	left: 160px;
+	top: 101px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(27,60,89,1);
+}
+#Rectangle_93 {
+	fill: rgba(17,191,174,1);
+}
+.Rectangle_93 {
+	position: absolute;
+	overflow: visible;
+	width: 460px;
+	height: 70px;
+	left: 0px;
+	top: 220px;
+}
+#Swati_Industrial_Sewing_Machin {
+	left: 35px;
+	top: 231px;
+	position: absolute;
+	overflow: visible;
+	width: 229px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(27,60,89,1);
+}
+#MumbaiIndia {
+	left: 35px;
+	top: 255px;
+	position: absolute;
+	overflow: visible;
+	width: 97px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(242,242,240,1);
+}
+#Group_104 {
+	position: absolute;
+	width: 460px;
+	height: 290px;
+	left: 722px;
+	top: 2889px;
+	overflow: visible;
+}
+#Rectangle_91_by {
+	fill: rgba(242,242,240,1);
+}
+.Rectangle_91_by {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 478px;
+	height: 308px;
+	left: 0px;
+	top: 0px;
+}
+#Icons_bz {
+	position: absolute;
+	width: 44.055px;
+	height: 44.055px;
+	left: 25px;
+	top: 24px;
+	overflow: visible;
+}
+#Group_55_b {
+	position: absolute;
+	width: 44.055px;
+	height: 44.055px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_256_b {
+	fill: rgba(48,48,48,1);
+}
+.Path_256_b {
+	overflow: visible;
+	position: absolute;
+	width: 44.055px;
+	height: 44.055px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Vishal_Shanker {
+	left: 80px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(17,191,174,1);
+}
+#from_New_Delhi {
+	left: 81px;
+	top: 49px;
+	position: absolute;
+	overflow: visible;
+	width: 111px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(69,97,115,1);
+}
+#Customer_Review_b {
+	position: absolute;
+	width: 150.933px;
+	height: 25.556px;
+	left: 155px;
+	top: 154.07px;
+	overflow: visible;
+}
+#Path_8811_b {
+	fill: rgba(17,191,174,1);
+}
+.Path_8811_b {
+	overflow: visible;
+	position: absolute;
+	width: 26.758px;
+	height: 25.442px;
+	left: 0px;
+	top: 0.115px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8812_b {
+	fill: rgba(17,191,174,1);
+}
+.Path_8812_b {
+	overflow: visible;
+	position: absolute;
+	width: 26.73px;
+	height: 25.442px;
+	left: 31.051px;
+	top: 0.115px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8813_b {
+	fill: rgba(17,191,174,1);
+}
+.Path_8813_b {
+	overflow: visible;
+	position: absolute;
+	width: 26.758px;
+	height: 25.442px;
+	left: 62.073px;
+	top: 0.115px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8814_b {
+	fill: rgba(27,60,89,1);
+}
+.Path_8814_b {
+	overflow: visible;
+	position: absolute;
+	width: 26.901px;
+	height: 25.556px;
+	left: 93.124px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8815_b {
+	fill: rgba(27,60,89,1);
+}
+.Path_8815_b {
+	overflow: visible;
+	position: absolute;
+	width: 26.815px;
+	height: 25.556px;
+	left: 124.118px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Many_options_to_choose_from {
+	left: 78px;
+	top: 101px;
+	position: absolute;
+	overflow: visible;
+	width: 305px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(27,60,89,1);
+}
+#Rectangle_93_cb {
+	fill: rgba(17,191,174,1);
+}
+.Rectangle_93_cb {
+	position: absolute;
+	overflow: visible;
+	width: 460px;
+	height: 70px;
+	left: 0px;
+	top: 220px;
+}
+#Sri_Ayushman_Silks {
+	left: 36px;
+	top: 231px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(27,60,89,1);
+}
+#Varanasi_India {
+	left: 36px;
+	top: 255px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(242,242,240,1);
+}
+#Group_107 {
+	position: absolute;
+	width: 460px;
+	height: 290px;
+	left: 198px;
+	top: 3393px;
+	overflow: visible;
+}
+#Rectangle_91_cf {
+	fill: rgba(242,242,240,1);
+}
+.Rectangle_91_cf {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 478px;
+	height: 308px;
+	left: 0px;
+	top: 0px;
+}
+#Icons_cg {
+	position: absolute;
+	width: 44.055px;
+	height: 44.055px;
+	left: 25px;
+	top: 24px;
+	overflow: visible;
+}
+#Group_55_ch {
+	position: absolute;
+	width: 44.055px;
+	height: 44.055px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_256_ci {
+	fill: rgba(48,48,48,1);
+}
+.Path_256_ci {
+	overflow: visible;
+	position: absolute;
+	width: 44.055px;
+	height: 44.055px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Anil_Mills {
+	left: 83px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(17,191,174,1);
+}
+#Surat {
+	left: 83px;
+	top: 49px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(69,97,115,1);
+}
+#Customer_Review_cl {
+	position: absolute;
+	width: 142.488px;
+	height: 24.126px;
+	left: 277px;
+	top: 32.5px;
+	overflow: visible;
+}
+#Path_8811_cm {
+	fill: rgba(17,191,174,1);
+}
+.Path_8811_cm {
+	overflow: visible;
+	position: absolute;
+	width: 25.261px;
+	height: 24.018px;
+	left: 0px;
+	top: 0.108px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8812_cn {
+	fill: rgba(17,191,174,1);
+}
+.Path_8812_cn {
+	overflow: visible;
+	position: absolute;
+	width: 25.234px;
+	height: 24.018px;
+	left: 29.314px;
+	top: 0.108px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8813_co {
+	fill: rgba(17,191,174,1);
+}
+.Path_8813_co {
+	overflow: visible;
+	position: absolute;
+	width: 25.261px;
+	height: 24.018px;
+	left: 58.6px;
+	top: 0.108px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8814_cp {
+	fill: rgba(27,60,89,1);
+}
+.Path_8814_cp {
+	overflow: visible;
+	position: absolute;
+	width: 25.396px;
+	height: 24.126px;
+	left: 87.913px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8815_cq {
+	fill: rgba(27,60,89,1);
+}
+.Path_8815_cq {
+	overflow: visible;
+	position: absolute;
+	width: 25.315px;
+	height: 24.126px;
+	left: 117.173px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#We_at_Anil_Mills_are_Manufactu {
+	left: 42px;
+	top: 101px;
+	position: absolute;
+	overflow: visible;
+	width: 379px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(27,60,89,1);
+}
+#Read_More {
+	left: 348px;
+	top: 187px;
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(17,191,174,1);
+}
+#CONTACT {
+	left: 87px;
+	top: 239px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(27,60,89,1);
+}
+#Rectangle_89_cu {
+	fill: transparent;
+	stroke: rgba(17,191,174,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_89_cu {
+	position: absolute;
+	overflow: visible;
+	width: 194px;
+	height: 41px;
+	left: 31px;
+	top: 229px;
+}
+#Rectangle_89_cv {
+	fill: rgba(17,191,174,1);
+}
+.Rectangle_89_cv {
+	position: absolute;
+	overflow: visible;
+	width: 194px;
+	height: 41px;
+	left: 236px;
+	top: 229px;
+}
+#SEND_INQUIRY {
+	left: 270px;
+	top: 239px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(242,242,240,1);
+}
+#Group_108 {
+	position: absolute;
+	width: 460px;
+	height: 290px;
+	left: 722px;
+	top: 3393px;
+	overflow: visible;
+}
+#Rectangle_91_cy {
+	fill: rgba(242,242,240,1);
+}
+.Rectangle_91_cy {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 478px;
+	height: 308px;
+	left: 0px;
+	top: 0px;
+}
+#Icons_cz {
+	position: absolute;
+	width: 44.055px;
+	height: 44.055px;
+	left: 25px;
+	top: 24px;
+	overflow: visible;
+}
+#Group_55_c {
+	position: absolute;
+	width: 44.055px;
+	height: 44.055px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_256_c {
+	fill: rgba(48,48,48,1);
+}
+.Path_256_c {
+	overflow: visible;
+	position: absolute;
+	width: 44.055px;
+	height: 44.055px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Shree_Ram_Jari {
+	left: 83px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(17,191,174,1);
+}
+#Surat_c {
+	left: 83px;
+	top: 49px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(69,97,115,1);
+}
+#Customer_Review_c {
+	position: absolute;
+	width: 142.488px;
+	height: 24.126px;
+	left: 277px;
+	top: 32.5px;
+	overflow: visible;
+}
+#Path_8811_c {
+	fill: rgba(17,191,174,1);
+}
+.Path_8811_c {
+	overflow: visible;
+	position: absolute;
+	width: 25.261px;
+	height: 24.018px;
+	left: 0px;
+	top: 0.108px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8812_c {
+	fill: rgba(17,191,174,1);
+}
+.Path_8812_c {
+	overflow: visible;
+	position: absolute;
+	width: 25.234px;
+	height: 24.018px;
+	left: 29.313px;
+	top: 0.108px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8813_c {
+	fill: rgba(17,191,174,1);
+}
+.Path_8813_c {
+	overflow: visible;
+	position: absolute;
+	width: 25.261px;
+	height: 24.018px;
+	left: 58.6px;
+	top: 0.108px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8814_c {
+	fill: rgba(27,60,89,1);
+}
+.Path_8814_c {
+	overflow: visible;
+	position: absolute;
+	width: 25.396px;
+	height: 24.126px;
+	left: 87.914px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8815_c {
+	fill: rgba(27,60,89,1);
+}
+.Path_8815_c {
+	overflow: visible;
+	position: absolute;
+	width: 25.315px;
+	height: 24.126px;
+	left: 117.173px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#We_are_proud_to_say_that_we_pr {
+	left: 42px;
+	top: 101px;
+	position: absolute;
+	overflow: visible;
+	width: 391px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(27,60,89,1);
+}
+#Read_More_db {
+	left: 348px;
+	top: 187px;
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(17,191,174,1);
+}
+#CONTACT_dc {
+	left: 87px;
+	top: 239px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(27,60,89,1);
+}
+#Rectangle_89_dd {
+	fill: transparent;
+	stroke: rgba(17,191,174,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_89_dd {
+	position: absolute;
+	overflow: visible;
+	width: 194px;
+	height: 41px;
+	left: 31px;
+	top: 229px;
+}
+#Rectangle_89_de {
+	fill: rgba(17,191,174,1);
+}
+.Rectangle_89_de {
+	position: absolute;
+	overflow: visible;
+	width: 194px;
+	height: 41px;
+	left: 236px;
+	top: 229px;
+}
+#SEND_INQUIRY_df {
+	left: 270px;
+	top: 239px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(242,242,240,1);
+}
+#Mask_Group_3 {
+	position: absolute;
+	width: 1366px;
+	height: 542px;
+	left: -6px;
+	top: 3910px;
+	overflow: visible;
+}
+#Rectangle_96 {
+	opacity: 0.8;
+	fill: rgba(27,60,89,1);
+}
+.Rectangle_96 {
+	position: absolute;
+	overflow: visible;
+	width: 1366px;
+	height: 538px;
+	left: -6px;
+	top: 3914px;
+}
+#FOOTER {
+	position: absolute;
+	width: 1366px;
+	height: 692px;
+	left: 7px;
+	top: 4503px;
+	overflow: visible;
+}
+#Rectangle_99 {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_99 {
+	position: absolute;
+	overflow: visible;
+	width: 1366px;
+	height: 538px;
+	left: 0px;
+	top: 0px;
+}
+#Know_More {
+	left: 500px;
+	top: 53px;
+	position: absolute;
+	overflow: visible;
+	width: 111px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#CONNECT_WITH_US_ON_SOCIAL_MEDI {
+	left: 492px;
+	top: 383px;
+	position: absolute;
+	overflow: visible;
+	width: 383px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#Garments_Infomedia_is_unique_B {
+	left: 91px;
+	top: 212px;
+	position: absolute;
+	overflow: visible;
+	width: 339px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#Important_Links {
+	left: 763px;
+	top: 53px;
+	position: absolute;
+	overflow: visible;
+	width: 157px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#Other_Links {
+	left: 1034px;
+	top: 53px;
+	position: absolute;
+	overflow: visible;
+	width: 115px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#About_Us_Privacy_Policy_Terms_ {
+	left: 500px;
+	top: 112px;
+	position: absolute;
+	overflow: visible;
+	width: 217px;
+	height: 150px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(105,227,215,1);
+}
+#Premium_Membership_Banner_Adve {
+	left: 724px;
+	top: 119px;
+	position: absolute;
+	overflow: visible;
+	width: 237px;
+	height: 150px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(105,227,215,1);
+}
+#Game__Fashion_Blogs_Garments_S {
+	left: 1034px;
+	top: 112px;
+	position: absolute;
+	overflow: visible;
+	width: 237px;
+	height: 207px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(105,227,215,1);
+}
+#iconfinder_1_social_2609541 {
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	left: 539px;
+	top: 454px;
+	overflow: visible;
+}
+#Path_8817 {
+	fill: rgba(79,118,187,1);
+}
+.Path_8817 {
+	overflow: visible;
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8818 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8818 {
+	overflow: visible;
+	position: absolute;
+	width: 8.761px;
+	height: 16.787px;
+	left: 11.116px;
+	top: 7.141px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#iconfinder_2_social_2609552 {
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	left: 590.472px;
+	top: 454px;
+	overflow: visible;
+}
+#Path_8819 {
+	fill: rgba(52,196,243,1);
+}
+.Path_8819 {
+	overflow: visible;
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8820 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8820 {
+	overflow: visible;
+	position: absolute;
+	width: 17.165px;
+	height: 13.966px;
+	left: 7.399px;
+	top: 8.508px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#iconfinder_3_social_2609563 {
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	left: 641.943px;
+	top: 454px;
+	overflow: visible;
+}
+#Path_8821 {
+	fill: rgba(241,87,74,1);
+}
+.Path_8821 {
+	overflow: visible;
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_113 {
+	position: absolute;
+	width: 20.798px;
+	height: 13.166px;
+	left: 6.515px;
+	top: 9.046px;
+	overflow: visible;
+}
+#Path_8822 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8822 {
+	overflow: visible;
+	position: absolute;
+	width: 12.903px;
+	height: 13.167px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8823 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8823 {
+	overflow: visible;
+	position: absolute;
+	width: 6.388px;
+	height: 6.388px;
+	left: 14.41px;
+	top: 3.04px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#iconfinder_4_social_2609574 {
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	left: 693.415px;
+	top: 454px;
+	overflow: visible;
+}
+#Path_8824 {
+	fill: rgba(19,135,200,1);
+}
+.Path_8824 {
+	overflow: visible;
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_114 {
+	position: absolute;
+	width: 15.597px;
+	height: 15.561px;
+	left: 8.355px;
+	top: 7.72px;
+	overflow: visible;
+}
+#Path_8825 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8825 {
+	overflow: visible;
+	position: absolute;
+	width: 3.748px;
+	height: 15.561px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8826 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8826 {
+	overflow: visible;
+	position: absolute;
+	width: 10.075px;
+	height: 10.644px;
+	left: 5.522px;
+	top: 4.917px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#iconfinder_6_social_2609577 {
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	left: 744.887px;
+	top: 454px;
+	overflow: visible;
+}
+#Path_8827 {
+	fill: rgba(239,63,56,1);
+}
+.Path_8827 {
+	overflow: visible;
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8828 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8828 {
+	overflow: visible;
+	position: absolute;
+	width: 17.361px;
+	height: 12.169px;
+	left: 6.82px;
+	top: 9.413px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#iconfinder_8_social_2609579 {
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	left: 796.359px;
+	top: 454px;
+	overflow: visible;
+}
+#Path_8829 {
+	fill: rgba(66,228,95,1);
+}
+.Path_8829 {
+	overflow: visible;
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_115 {
+	position: absolute;
+	width: 15.77px;
+	height: 15.857px;
+	left: 7.617px;
+	top: 7.569px;
+	overflow: visible;
+}
+#Path_8830 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8830 {
+	overflow: visible;
+	position: absolute;
+	width: 15.77px;
+	height: 15.856px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8831 {
+	fill: rgba(255,255,255,1);
+}
+.Path_8831 {
+	overflow: visible;
+	position: absolute;
+	width: 7.951px;
+	height: 7.404px;
+	left: 3.918px;
+	top: 4.237px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#GARMENTS_WHITE {
+	position: absolute;
+	width: 272px;
+	height: 114px;
+	left: 91px;
+	top: 53px;
+	overflow: visible;
+}
+#Copyrights__2020_Garments_Info {
+	left: 426px;
+	top: 669px;
+	position: absolute;
+	overflow: visible;
+	width: 501px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(242,242,240,1);
+}
+#header_up {
+	position: absolute;
+	width: 1373px;
+	height: 152px;
+	left: -20px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_3_ek {
+	fill: url(#Rectangle_3_ek);
+}
+.Rectangle_3_ek {
+	position: absolute;
+	overflow: visible;
+	width: 1373px;
+	height: 152px;
+	left: 0px;
+	top: 0px;
+}
+#Sign_In {
+	left: 1045px;
+	top: 62px;
+	position: absolute;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(242,242,240,1);
+}
+#Group_1 {
+	position: absolute;
+	width: 170px;
+	height: 34px;
+	left: 1133px;
+	top: 57px;
+	overflow: visible;
+}
+#Rectangle_15 {
+	fill: transparent;
+	stroke: rgba(17,191,174,1);
+	stroke-width: 1.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 170px;
+	height: 34px;
+	left: 0px;
+	top: 0px;
+}
+#Group_9_eo {
+	position: absolute;
+	width: 95px;
+	height: 21px;
+	left: 27px;
+	top: 7px;
+	overflow: visible;
+}
+#Add_Listing {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 96px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(242,242,240,1);
+}
+#iconfinder_icon-plus-round_211 {
+	fill: rgba(242,242,240,1);
+}
+.iconfinder_icon-plus-round_211 {
+	overflow: visible;
+	position: absolute;
+	width: 12.683px;
+	height: 12.683px;
+	left: 134.206px;
+	top: 10.697px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#GARMENTS_WHITE_er {
+	position: absolute;
+	width: 293px;
+	height: 123px;
+	left: 40px;
+	top: 15px;
+	overflow: visible;
+}
+#Is_this_page_helpful {
+	left: 744px;
+	top: 3889px;
+	position: absolute;
+	overflow: visible;
+	width: 193px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#Looking_for_any_textile_produc {
+	left: 744px;
+	top: 4026px;
+	position: absolute;
+	overflow: visible;
+	width: 418px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#Average_Ratings_40_288_reviews {
+	left: 740px;
+	top: 3961px;
+	position: absolute;
+	overflow: visible;
+	width: 283px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(242,242,240,1);
+}
+#Get_Your_garments_Handy {
+	left: 785px;
+	top: 4127px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#Easy_to_contact_suppliers {
+	left: 785px;
+	top: 4176px;
+	position: absolute;
+	overflow: visible;
+	width: 237px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#Upload_your_products_in_Market {
+	left: 785px;
+	top: 4225px;
+	position: absolute;
+	overflow: visible;
+	width: 351px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#Manage_your_business_on_GIM_po {
+	left: 785px;
+	top: 4274px;
+	position: absolute;
+	overflow: visible;
+	width: 345px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#tick {
+	position: absolute;
+	width: 20px;
+	height: 18.644px;
+	left: 740px;
+	top: 4129.566px;
+	overflow: visible;
+}
+#Path_266 {
+	fill: rgba(17,191,174,1);
+}
+.Path_266 {
+	overflow: visible;
+	position: absolute;
+	width: 20px;
+	height: 18.644px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#tick_e {
+	position: absolute;
+	width: 20px;
+	height: 18.644px;
+	left: 740px;
+	top: 4178.651px;
+	overflow: visible;
+}
+#Path_266_e {
+	fill: rgba(17,191,174,1);
+}
+.Path_266_e {
+	overflow: visible;
+	position: absolute;
+	width: 20px;
+	height: 18.644px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#tick_fa {
+	position: absolute;
+	width: 20px;
+	height: 18.644px;
+	left: 740px;
+	top: 4227.736px;
+	overflow: visible;
+}
+#Path_266_fa {
+	fill: rgba(17,191,174,1);
+}
+.Path_266_fa {
+	overflow: visible;
+	position: absolute;
+	width: 20px;
+	height: 18.644px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#tick_fb {
+	position: absolute;
+	width: 20px;
+	height: 18.644px;
+	left: 740px;
+	top: 4276.822px;
+	overflow: visible;
+}
+#Path_266_fb {
+	fill: rgba(17,191,174,1);
+}
+.Path_266_fb {
+	overflow: visible;
+	position: absolute;
+	width: 20px;
+	height: 18.644px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Customer_Review_e {
+	position: absolute;
+	width: 142.488px;
+	height: 24.126px;
+	left: 740px;
+	top: 3925.022px;
+	overflow: visible;
+}
+#Path_8811_e {
+	fill: rgba(17,191,174,1);
+}
+.Path_8811_e {
+	overflow: visible;
+	position: absolute;
+	width: 25.261px;
+	height: 24.018px;
+	left: 0px;
+	top: 0.108px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8812_e {
+	fill: rgba(17,191,174,1);
+}
+.Path_8812_e {
+	overflow: visible;
+	position: absolute;
+	width: 25.234px;
+	height: 24.018px;
+	left: 29.313px;
+	top: 0.108px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8813_fa {
+	fill: rgba(17,191,174,1);
+}
+.Path_8813_fa {
+	overflow: visible;
+	position: absolute;
+	width: 25.261px;
+	height: 24.018px;
+	left: 58.6px;
+	top: 0.108px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8816 {
+	fill: rgba(17,191,174,1);
+}
+.Path_8816 {
+	overflow: visible;
+	position: absolute;
+	width: 25.261px;
+	height: 24.018px;
+	left: 87.6px;
+	top: 0.108px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_8815_fc {
+	fill: rgba(242,242,240,1);
+}
+.Path_8815_fc {
+	overflow: visible;
+	position: absolute;
+	width: 25.315px;
+	height: 24.126px;
+	left: 117.173px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_111 {
+	position: absolute;
+	width: 185px;
+	height: 39px;
+	left: 1055px;
+	top: 3890px;
+	overflow: visible;
+}
+#WRITE_A_REVIEW {
+	left: 26px;
+	top: 10.001px;
+	position: absolute;
+	overflow: visible;
+	width: 133px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(242,242,240,1);
+}
+#Rectangle_89_ff {
+	fill: transparent;
+	stroke: rgba(17,191,174,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_89_ff {
+	position: absolute;
+	overflow: visible;
+	width: 185px;
+	height: 39px;
+	left: 0px;
+	top: 0px;
+}
+#NoPath_-_Copy_18 {
+	position: absolute;
+	width: 461px;
+	height: 161px;
+	left: 154px;
+	top: 3915px;
+	overflow: visible;
+}
+#NoPath_-_Copy_19 {
+	position: absolute;
+	width: 461px;
+	height: 161px;
+	left: 154px;
+	top: 4139px;
+	overflow: visible;
+}
+#A {
+	left: 131px;
+	top: 843px;
+	position: absolute;
+	overflow: visible;
+	width: 10px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(27,60,89,1);
+}
+#A_fj {
+	left: 236px;
+	top: 755px;
+	position: absolute;
+	overflow: visible;
+	width: 10px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(27,60,89,1);
+}
+#About_Us {
+	left: 81px;
+	top: 753px;
+	position: absolute;
+	overflow: visible;
+	width: 158px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(255,255,255,1);
+}
+#We_Lead {
+	left: 595px;
+	top: 221px;
+	position: absolute;
+	overflow: visible;
+	width: 152px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(255,255,255,1);
+}
+#Shop_By_Latest_Trends {
+	left: 84px;
+	top: 1550px;
+	position: absolute;
+	overflow: visible;
+	width: 378px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(255,255,255,1);
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 164.006px;
+	height: 2px;
+	left: 84.5px;
+	top: 1670.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 195.005px;
+	height: 2px;
+	left: 323.5px;
+	top: 1670.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_3 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 220.005px;
+	height: 2px;
+	left: 593.5px;
+	top: 1670.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_4 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	width: 224px;
+	height: 1px;
+	left: 888.5px;
+	top: 1670.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Menswear {
+	left: 112px;
+	top: 1631px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+#Womenswear {
+	left: 351px;
+	top: 1631px;
+	position: absolute;
+	overflow: visible;
+	width: 145px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+#Boys_Kids_Wear {
+	left: 623px;
+	top: 1631px;
+	position: absolute;
+	overflow: visible;
+	width: 162px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+#Girls_Kids_Wear {
+	left: 923px;
+	top: 1631px;
+	position: absolute;
+	overflow: visible;
+	width: 158px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+#tex_mill {
+	position: absolute;
+	width: 234px;
+	height: 382px;
+	left: 107px;
+	top: 1711px;
+	overflow: visible;
+}
+#Rectangle_32 {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_32 {
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	height: 382px;
+	left: 0px;
+	top: 0px;
+}
+#NoPath_-_Copy_25 {
+	filter: drop-shadow(0px 3px 6px rgba(27, 60, 89, 1));
+	position: absolute;
+	width: 234px;
+	height: 297px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Jeans {
+	left: 90px;
+	top: 305px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(105,227,215,1);
+}
+#Fabric_SoldPopularity {
+	left: 61px;
+	top: 337px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(242,242,240,1);
+}
+#tex_mill_f {
+	position: absolute;
+	width: 234px;
+	height: 382px;
+	left: 106px;
+	top: 2171px;
+	overflow: visible;
+}
+#Rectangle_32_f {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_32_f {
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	height: 382px;
+	left: 0px;
+	top: 0px;
+}
+#NoPath_-_Copy_25_f {
+	filter: drop-shadow(0px 3px 6px rgba(27, 60, 89, 1));
+	position: absolute;
+	width: 234px;
+	height: 297px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Short_Pyjamas {
+	left: 50px;
+	top: 306px;
+	position: absolute;
+	overflow: visible;
+	width: 138px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(105,227,215,1);
+}
+#Fabric_SoldPopularity_f {
+	left: 61px;
+	top: 337px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(242,242,240,1);
+}
+#tex_mill_ga {
+	position: absolute;
+	width: 234px;
+	height: 401px;
+	left: 414px;
+	top: 1692px;
+	overflow: visible;
+}
+#Rectangle_32_ga {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_32_ga {
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	height: 401px;
+	left: 0px;
+	top: 0px;
+}
+#download {
+	filter: drop-shadow(0px 3px 6px rgba(27, 60, 89, 1));
+	position: absolute;
+	width: 234px;
+	height: 316px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#T-shirts {
+	left: 81px;
+	top: 327px;
+	position: absolute;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(105,227,215,1);
+}
+#Fabric_SoldPopularity_ga {
+	left: 61px;
+	top: 356px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(242,242,240,1);
+}
+#tex_mill_gb {
+	position: absolute;
+	width: 234px;
+	height: 382px;
+	left: 413px;
+	top: 2171px;
+	overflow: visible;
+}
+#Rectangle_32_gb {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_32_gb {
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	height: 382px;
+	left: 0px;
+	top: 0px;
+}
+#NoPath_-_Copy_25_gc {
+	filter: drop-shadow(0px 3px 6px rgba(27, 60, 89, 1));
+	position: absolute;
+	width: 234px;
+	height: 297px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Cargo_Paints {
+	left: 57px;
+	top: 306px;
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(105,227,215,1);
+}
+#Fabric_SoldPopularity_ge {
+	left: 61px;
+	top: 337px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(242,242,240,1);
+}
+#tex_mill_gf {
+	position: absolute;
+	width: 234px;
+	height: 382px;
+	left: 721px;
+	top: 1711px;
+	overflow: visible;
+}
+#Rectangle_32_gg {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_32_gg {
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	height: 382px;
+	left: 0px;
+	top: 0px;
+}
+#NoPath_-_Copy_25_gh {
+	filter: drop-shadow(0px 3px 6px rgba(27, 60, 89, 1));
+	position: absolute;
+	width: 234px;
+	height: 297px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Trouser {
+	left: 81px;
+	top: 306px;
+	position: absolute;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(105,227,215,1);
+}
+#Fabric_SoldPopularity_gj {
+	left: 61px;
+	top: 337px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(242,242,240,1);
+}
+#tex_mill_gk {
+	position: absolute;
+	width: 234px;
+	height: 382px;
+	left: 720px;
+	top: 2171px;
+	overflow: visible;
+}
+#Rectangle_32_gl {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_32_gl {
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	height: 382px;
+	left: 0px;
+	top: 0px;
+}
+#NoPath_-_Copy_25_gm {
+	filter: drop-shadow(0px 3px 6px rgba(27, 60, 89, 1));
+	position: absolute;
+	width: 234px;
+	height: 297px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Jackets {
+	left: 81px;
+	top: 305px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(105,227,215,1);
+}
+#Fabric_SoldPopularity_go {
+	left: 61px;
+	top: 337px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(242,242,240,1);
+}
+#tex_mill_gp {
+	position: absolute;
+	width: 234px;
+	height: 382px;
+	left: 1028px;
+	top: 1711px;
+	overflow: visible;
+}
+#Rectangle_32_gq {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_32_gq {
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	height: 382px;
+	left: 0px;
+	top: 0px;
+}
+#NoPath_-_Copy_25_gr {
+	filter: drop-shadow(0px 3px 6px rgba(27, 60, 89, 1));
+	position: absolute;
+	width: 234px;
+	height: 297px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Short_Kurta {
+	left: 65px;
+	top: 306px;
+	position: absolute;
+	overflow: visible;
+	width: 110px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(105,227,215,1);
+}
+#Fabric_SoldPopularity_gt {
+	left: 61px;
+	top: 337px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(242,242,240,1);
+}
+#tex_mill_gu {
+	position: absolute;
+	width: 234px;
+	height: 382px;
+	left: 1027px;
+	top: 2171px;
+	overflow: visible;
+}
+#Rectangle_32_gv {
+	fill: rgba(69,97,115,1);
+}
+.Rectangle_32_gv {
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	height: 382px;
+	left: 0px;
+	top: 0px;
+}
+#NoPath_-_Copy_25_gw {
+	filter: drop-shadow(0px 3px 6px rgba(27, 60, 89, 1));
+	position: absolute;
+	width: 234px;
+	height: 297px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Belt {
+	left: 90px;
+	top: 305px;
+	position: absolute;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(105,227,215,1);
+}
+#Fabric_SoldPopularity_gy {
+	left: 61px;
+	top: 337px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(242,242,240,1);
+}
+#SD_04_T74_9518E_E5_X_EC_90 {
+	position: absolute;
+	width: 232px;
+	height: 317px;
+	left: 109px;
+	top: 1692px;
+	overflow: visible;
+}
+#SD_04_T74_9518E_E5_X_EC_90_g {
+	position: absolute;
+	width: 232px;
+	height: 317px;
+	left: 108px;
+	top: 2152px;
+	overflow: visible;
+}
+#ID78d9848e41bff23894747e96dbab {
+	position: absolute;
+	width: 232px;
+	height: 317px;
+	left: 415px;
+	top: 2152px;
+	overflow: visible;
+}
+#SD_04_T74_9518E_E5_X_EC_90_ha {
+	position: absolute;
+	width: 232px;
+	height: 317px;
+	left: 722px;
+	top: 2152px;
+	overflow: visible;
+}
+#peter-england-white-short-kurt {
+	position: absolute;
+	width: 232px;
+	height: 317px;
+	left: 1030px;
+	top: 1692px;
+	overflow: visible;
+}
+#SD_04_T74_9518E_E5_X_EC_90_hb {
+	position: absolute;
+	width: 232px;
+	height: 317px;
+	left: 1029px;
+	top: 2152px;
+	overflow: visible;
+}
+#Group_136 {
+	position: absolute;
+	width: 213px;
+	height: 41px;
+	left: 1049px;
+	top: 1562px;
+	overflow: visible;
+}
+#Rectangle_89_g {
+	fill: transparent;
+	stroke: rgba(17,191,174,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_89_g {
+	position: absolute;
+	overflow: visible;
+	width: 213px;
+	height: 41px;
+	left: 0px;
+	top: 0px;
+}
+#View_All_g {
+	left: 68px;
+	top: 8px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(242,242,240,1);
+}
+#ID61b1EkTqQUL_UL1500_ {
+	position: absolute;
+	width: 235px;
+	height: 317px;
+	left: 720px;
+	top: 1692px;
+	overflow: visible;
+}
+#SD_03_T07_2053_FE_X_EC_90 {
+	position: absolute;
+	width: 234px;
+	height: 317px;
+	left: 106px;
+	top: 2152px;
+	overflow: visible;
+}
+#download_1 {
+	position: absolute;
+	width: 235.5px;
+	height: 317.5px;
+	left: 720px;
+	top: 2152px;
+	overflow: visible;
+}
+#download_2 {
+	position: absolute;
+	width: 234.5px;
+	height: 318px;
+	left: 1027px;
+	top: 2152px;
+	overflow: visible;
+}

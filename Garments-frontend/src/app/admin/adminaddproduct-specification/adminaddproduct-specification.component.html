@@ -1,0 +1,66 @@
+<div class="row d-flex justify-content-center">
+    <div class="col-8 formContainer">
+        <div class="row">
+            <div class="col-12 heading">
+                Enter Details of the Garment
+            </div>
+        </div>
+
+        <form [formGroup]="productSpecForm" (ngSubmit)="handleSubmit()">
+
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-row">
+                        <div class="form-group col-12">
+                            <select class="form-control" (change)="setSecondaryArr($event.target.value)">
+                                <option value="">Select a parent category</option>
+                                <option *ngFor="let el of categoryLevel1Arr" [value]="el._id">{{el.name}}</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-12" *ngFor="let el of categoryLevelnArr;index as i">
+                            <select class="form-control" (change)="setSecondaryArr($event.target.value,i)"
+                                [disabled]="i!=categoryLevelnArr.length-1">
+                                <option value="">Select Sub Category</option>
+                                <option *ngFor="let ele of el" [value]="ele._id">{{ele.name}}</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="">Specifications</label>
+                    </div>
+                    <div class="form-row" formArrayName="specifications">
+                        <div class="form-group"
+                            *ngFor="let el of productSpecForm.get('specifications')['controls'];let i=index"
+                            [formGroupName]="i">
+                            <div class="form-row">
+                                <input placeholder="Specification" type="text" class="form-control"
+                                    formControlName="name">
+                                <div class="form-group" formArrayName="contentArr">
+                                    <div *ngFor="let ele of el.get('contentArr')['controls'];let j=index"
+                                        [formGroupName]="j">
+
+                                        <input type="text" formControlName="name" placeholder="content" style="padding: 5px;">
+                                        <button class="btn" (click)="removeContent(i,j)">remove content</button>
+                                    </div>
+                                    <button class="btn " type="button" (click)="addContent(el)">add content</button>
+                                </div>
+                            </div>
+
+                            <button class="btn" type="button" (click)="removeProdSpces(i)">remove Specification</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <button type="button" class="btn" (click)="addSpecs()">Add More Specifications</button>
+            </div>
+
+            <div class="row d-flex justify-content-around">
+                <button class="col-5 btn">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</div>

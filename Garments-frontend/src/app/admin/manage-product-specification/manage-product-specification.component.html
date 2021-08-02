@@ -1,0 +1,49 @@
+<div class="row d-flex justify-content-center">
+    <div class="col-lg-9 formContainer">
+        <div class="row">
+            <div class="form-group col-10">
+                <h1 class="text-center heading">Manage Product Specifications</h1>
+            </div>
+            <div class="form-group col-2" routerLink="/admin/productspecification">
+                <button type="button" class="btn btn-info">Add <i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="row">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Category Name</th>
+                        <th scope="col">Product Specification Name</th>
+                        <th scope="col">Update Specification</th>
+                        <th scope="col">Delete Specification</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let obj of productspecArr;index as i">
+                        <th scope="row">{{i+1}}</th>
+                        <td>{{obj.categoryName}}</td>
+                        <td>
+                            <ul>
+
+                                <li *ngFor="let el of obj.specifications">
+                                    <span>{{el.name}} : </span>
+                                    <span style="margin-left: 20px;" *ngFor="let ele of el.contentArr">
+                                        {{ele.name}},
+                                    </span>
+                                </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <div class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Update
+                            </div>
+                        </td>
+                        <td>
+                            <div class="btn btn-danger" (click)="deleteSpecification(obj._id)">Delete</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

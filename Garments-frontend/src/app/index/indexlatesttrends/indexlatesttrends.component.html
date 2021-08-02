@@ -1,0 +1,48 @@
+<div class="container-fluid backgroundcolorclass">
+    <div class="row d-flex justify-content-center">
+        <div class="col-11">
+            <div class="row d-flex justify-content-lg-between justify-content-center">
+
+                <div class="col-lg-6 col-12 sectionHeading">
+                    Shop by latest trends
+                </div>
+                <div class="col-lg-6 col-11 text-right">
+                    <div class="row d-flex justify-content-lg-end justify-content-center">
+                        <div class="col-lg-4 col-11" routerLink="/productvarietydetails">
+                            <div class="viewAllBtn">View All</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row tabnavigatorContainer d-flex justify-content-center">
+                <div class="col-lg-2 col-11 tabItem" [class.active]="activeVal==el.name" (click)="setCategory(el)"
+                    *ngFor="let el of categoryArr">
+                    {{el.name}}</div>
+
+            </div>
+            <div class="container-fluid">
+                <div class="cardContainer">
+
+
+                    <div class="card" *ngFor="let el of categoryLevel1Arr"
+                        routerLink="/productvarietydetails/{{el._id}}">
+                        <img src={{el.categoryImage}} class="cardImage" alt="">
+                        <div class="cardProductName">
+                            {{el.name}}
+                        </div>
+                        <!-- <div class="cardproduct">
+                            Fabric
+                        </div>
+                        <div class="cardproductcategory">
+                            Sold/Popularity
+                        </div> -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+<div class="container-fluid">
+    <div class="cardContainer">
+        
+        
+        <div class="card" *ngFor="let el of categoryArr" routerLink="/productCategoryWiseViewAll">
+            <img src={{el.categoryImage}} class="cardImage" alt="">
+            <div class="cardProductName">
+                {{el.name}}
+            </div>
+            <!-- <div class="cardproduct">
+                Fabric
+            </div>
+            <div class="cardproductcategory">
+                Sold/Popularity
+            </div> -->
+        </div>
+
+    </div>
+</div>

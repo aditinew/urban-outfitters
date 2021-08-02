@@ -1,0 +1,172 @@
+<div class="row d-flex justify-content-center">
+    <div class="col-lg-9 formContainer">
+        <div class="row mb-4">            
+        <div class="col-sm-4 grid-margin stretch-card tablinks">
+            <div class="card" (click)="setTempVal(2)" style="background-color: #67e0d4; height: 20vh ;cursor: pointer;">
+              <div class="card-body large-card">
+                <div class="d-lg-flex align-items-center mb-3">
+                  <div class="icon-bg">
+                    <i class="mdi mdi-tab"></i>
+                  </div>
+                  <div>
+                    <h4 class="mb-2 font-weight-light">Payments</h4>
+                    <h1 class="mb-0">$9,500.00</h1>
+                  </div>
+                </div>
+                <div class="chart-wrapper">
+                  <canvas id="paymentChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="col-sm-4 grid-margin stretch-card tablinks">
+            <div class="card" (click)="setTempVal(3)" style="background-color: #67e0d4; height: 20vh; cursor: pointer;">
+              <div class="card-body large-card">
+                <div class="d-xl-flex align-items-center mb-3">
+                  <div class="icon-bg">
+                    <i class="mdi mdi-tab"></i>
+                  </div>
+                  <div>
+                    <h4 class="mb-2 font-weight-light">Payments</h4>
+                    <h1 class="mb-0">$9,500.00</h1>
+                  </div>
+                </div>
+                <div class="chart-wrapper">
+                  <canvas id="paymentChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="col-sm-4 grid-margin stretch-card tablinks">
+            <div class="card" (click)="setTempVal(4)" style="background-color: #67e0d4; height: 20vh; cursor: pointer;">
+              <div class="card-body large-card">
+                <div class="d-xl-flex align-items-center mb-3">
+                  <div class="icon-bg">
+                    <i class="mdi mdi-tab"></i>
+                  </div>
+                  <div>
+                    <h4 class="mb-2 font-weight-light">Payments</h4>
+                    <h1 class="mb-0">$9,500.00</h1>
+                  </div>
+                </div>
+                <div class="chart-wrapper">
+                  <canvas id="paymentChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div *ngIf="tempVal==2" >
+                
+<table class="table table-striped table-dark mt-4">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Buttons</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td><button type="button" class="btn btn-info">Action</button></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td><button type="button" class="btn btn-info">Action</button></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td><button type="button" class="btn btn-info">Action</button></td>
+      </tr>
+    </tbody>
+  </table>
+        </div>
+        
+        
+        <div *ngIf="tempVal==3" >
+                
+            <table class="table table-striped table-dark mt-4">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Buttons</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>ABC </td>
+                    <td>DEF</td>
+                    <td><button type="button" class="btn btn-info">Action</button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>GHU</td>
+                    <td>JKL</td>
+                    <td><button type="button" class="btn btn-info">Action</button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td><button type="button" class="btn btn-info">Action</button></td>
+                  </tr>
+                </tbody>
+              </table>
+                    </div>
+
+                    <!--  -->
+
+                    <div *ngIf="tempVal==4" >
+                
+                        <table class="table table-striped table-dark mt-4">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Buttons</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>adf</td>
+                                <td>asdfghj</td>
+                                <td><button type="button" class="btn btn-info">Action</button></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>qwerty</td>
+                                <td>zxcvbn</td>
+                                <td><button type="button" class="btn btn-info">Action</button></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>zsdrtyhj</td>
+                                <td>mjhytrfd</td>
+                                <td><button type="button" class="btn btn-info">Action</button></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                                </div>
+
+    </div>
+    </div>
+

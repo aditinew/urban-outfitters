@@ -1,0 +1,28 @@
+<div class="row d-flex justify-content-center">
+    <div class="col-8 formContainer">
+        <div class="row">
+            <div class="col-12 heading">
+                <h2>
+                    Add Brand
+                </h2>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="row">
+                <form [formGroup]="brandForm" style="width: 100%;" (ngSubmit)="addBrand()">
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label">Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" formControlName="name" name="name">
+                        </div>
+                    </div>
+                    <button class="btn " type="submit">Add Brand</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>

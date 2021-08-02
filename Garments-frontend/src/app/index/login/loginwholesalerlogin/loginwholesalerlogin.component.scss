@@ -1,0 +1,60 @@
+.loginheretext {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: solid 1px #FFEFBA;
+    margin-top: 3vh 0px;
+    text-align: center;
+    background-color: sandybrown;
+}
+.loginbtn {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 25px;
+    margin: 3vh 0px;
+    padding: 1.5vh 10px;
+    text-align: center;
+    background-color: sandybrown;
+    cursor: pointer;
+}
+.Forgotbtn {
+    color: rgb(56, 52, 49);
+    font-size: 14px;
+    outline: none;
+    border: solid 1px rgb(56, 52, 49);
+    font-weight: 300;
+    border-radius: 25px;
+    margin: 3vh 0px;
+    padding: 1.5vh 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.Forgotbtn:focus {
+    outline: none;
+}
+.textinput {
+    border-radius: 25px;
+    outline: none;
+    padding: 10px 25px;
+    border: solid 2px sandybrown;
+}
+.hrtag {
+    border: solid 2px sandybrown;
+    width: 20px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .loginheretext {
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+        border-radius: 15px;
+        border: solid 1px #FFEFBA;
+        margin: 3vh 0px;
+        text-align: center;
+        background-color: sandybrown;
+    }
+}

@@ -1,0 +1,132 @@
+.min-height-100 {
+    min-height: calc(100vh - 89px);
+    // 89 px is the height of the header
+}
+.backgroundColor {
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFFFFF, #FFEFBA);
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.filterClear {
+    position: absolute;
+    right: 0px;
+    margin-right: 10px;
+    border-radius: 500px;
+    border: 1px solid sandybrown;
+    font-size: 12px;
+    padding: 2px 10px;
+    text-transform: lowercase;
+    cursor: pointer;
+    color: rgb(56, 52, 49);
+}
+
+.filterClear::first-letter {
+    text-transform: uppercase;
+}
+
+.filterHeading {
+    position: relative;
+    color: rgb(56, 52, 49);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px;
+    background-color: #FFEFBA;
+    border-radius: 25px;
+    border: solid 2px sandybrown;
+}
+.filterName {
+    color: rgb(56, 52, 49);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.leftSectionSide {
+    background-color: #FFFFFF;
+    min-height: 100%;
+}
+.pageHeading {
+    color: sandybrown;
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+}
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    width: 18vw;
+    background-color: transparent;
+    border: transparent;
+    margin: 4vh 1.7vw;
+    border-radius: 10px !important;
+
+    .cardImage {
+        height: 230px;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .cardProductName {
+        text-align: center;
+        color: sandybrown;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 1vh 0px;
+        background-color: #FFEFBA;
+    }
+    .cardproduct {
+        text-align: center;
+        color: white;
+        background-color: #FFEFBA;
+        padding-bottom: 1vh;
+        border-bottom-left-radius: 10px !important;
+        border-bottom-right-radius: 10px !important;
+    }
+    .cardproduct1 {
+        text-align: center;
+        color: white;
+        background-color: #FFEFBA;
+        padding-bottom: 1vh;
+    }
+    .cardproductcategory {
+        text-align: center;
+        color: white;
+        background-color: #FFEFBA;
+        border-bottom-left-radius: 10px !important;
+        border-bottom-right-radius: 10px !important;
+        padding-bottom: 1vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cardContainer {
+        display: flex;
+        margin: 0px !important;
+        padding: 0px !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .card {
+        width: 70vw;
+        margin: 3vh 0vw;
+    }
+    .pageHeading {
+        color: #69e3d7;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+}
